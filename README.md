@@ -1,2 +1,2 @@
 #CSCI-3308-Unity-Project
-Project Members: Jonathan Mai, Eric Tran
+Project Members: Jonathan Mai, Eric Thuc Tran
