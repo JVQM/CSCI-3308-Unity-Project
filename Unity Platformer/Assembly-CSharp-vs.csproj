@@ -46,17 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BombScript.cs" />
-     <Compile Include="Assets\Bullets.cs" />
-     <Compile Include="Assets\DestroyByTime.cs" />
-     <Compile Include="Assets\GameCamera.cs" />
-     <Compile Include="Assets\GameController.cs" />
-     <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\Health.cs" />
-     <Compile Include="Assets\ObjectBehavior2.cs" />
-     <Compile Include="Assets\PlayerController.cs" />
-     <Compile Include="Assets\PlayerPhysics.cs" />
-     <Compile Include="Assets\SpikeObstacle.cs" />
+     <Compile Include="Assets\scripts\BombScript.cs" />
+     <Compile Include="Assets\scripts\Bullets.cs" />
+     <Compile Include="Assets\scripts\DestroyByTime.cs" />
+     <Compile Include="Assets\scripts\GameCamera.cs" />
+     <Compile Include="Assets\scripts\GameController.cs" />
+     <Compile Include="Assets\scripts\GameManager.cs" />
+     <Compile Include="Assets\scripts\Health.cs" />
+     <Compile Include="Assets\scripts\ObjectBehavior2.cs" />
+     <Compile Include="Assets\scripts\PlayerController.cs" />
+     <Compile Include="Assets\scripts\PlayerPhysics.cs" />
+     <Compile Include="Assets\scripts\SpikeObstacle.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
