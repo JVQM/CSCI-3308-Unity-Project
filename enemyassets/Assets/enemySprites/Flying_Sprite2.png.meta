@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 8db736a10e54a044d8f539d2723664a5
+timeCreated: 1427974409
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Flying_Sprite2_0
+    21300002: Flying_Sprite2_1
+    21300004: Flying_Sprite2_2
+    21300006: Flying_Sprite2_3
+    21300008: Flying_Sprite2_4
+    21300010: Flying_Sprite2_5
+    21300012: Flying_Sprite2_9
+    21300014: Flying_Sprite2_17
+    21300016: Flying_Sprite2_18
+    21300018: Flying_Sprite2_19
+    21300020: Flying_Sprite2_23
+    21300022: Flying_Sprite2_24
+    21300024: Flying_Sprite2_25
+    21300026: Flying_Sprite2_26
+    21300028: Flying_Sprite2_27
+    21300030: Flying_Sprite2_28
+    21300032: Flying_Sprite2_29
+    21300034: Flying_Sprite2_30
+    21300036: Flying_Sprite2_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Flying_Sprite2_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 293
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 293
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 284
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 300
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 299
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 297
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_9
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 299
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 201
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 201
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 192
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_23
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 69
+        width: 62
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 69
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 60
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_26
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 74
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 72
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_28
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 70
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_29
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 70
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_30
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 69
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flying_Sprite2_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 298
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: dcef571154e035e48a68dacbdd73e32f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bomb_0
+    21300002: Bomb_1
+    21300004: Bomb_2
+    21300006: Bomb_3
+    21300008: Bomb_5
+    21300010: Bomb_6
+    21300012: Bomb_7
+    21300014: Bomb_20
+    21300016: Bomb_21
+    21300018: Bomb_22
+    21300020: Bomb_23
+    21300022: Bomb_24
+    21300024: Bomb_25
+    21300026: Bomb_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bomb_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 265
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 265
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 264
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 265
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 227
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_6
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 227
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 227
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_20
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 74
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_21
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 72
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_22
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 71
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 71
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_24
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 78
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_25
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Bomb_32
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 17
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
