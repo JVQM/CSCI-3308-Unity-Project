@@ -1,3 +1,5 @@
+//Player Physics from Sebastion Lague Tutorials on Platformers
+
 using UnityEngine;
 using System.Collections;
 
@@ -6,7 +8,7 @@ using System.Collections;
 public class PlayerPhysics : MonoBehaviour {
 	
 	public LayerMask collisionMask;
-
+	
 	private BoxCollider collider;
 	private Vector3 s;
 	private Vector3 c;
@@ -36,7 +38,7 @@ public class PlayerPhysics : MonoBehaviour {
 		originalCentre = collider.center;
 		SetCollider(originalSize,originalCentre);
 	}
-
+	
 	public void Move(Vector2 moveAmount) {
 		
 		float deltaY = moveAmount.y;
@@ -52,7 +54,7 @@ public class PlayerPhysics : MonoBehaviour {
 			float y = p.y + c.y + s.y/2 * dir; // Bottom of collider
 			
 			ray = new Ray(new Vector2(x,y), new Vector2(0,dir));
-			//Debug.DrawRay(ray.origin,ray.direction);
+			Debug.DrawRay(ray.origin,ray.direction);
 			
 			if (Physics.Raycast(ray,out hit,Mathf.Abs(deltaY) + skin,collisionMask)) {
 				// Get Distance between player and ground
@@ -82,7 +84,7 @@ public class PlayerPhysics : MonoBehaviour {
 			float y = p.y + c.y - s.y/2 + s.y/3 * i;
 			
 			ray = new Ray(new Vector2(x,y), new Vector2(dir,0));
-			//Debug.DrawRay(ray.origin,ray.direction);
+			Debug.DrawRay(ray.origin,ray.direction);
 			
 			if (Physics.Raycast(ray,out hit,Mathf.Abs(deltaX) + skin,collisionMask)) {
 				// Get Distance between player and ground
@@ -112,8 +114,8 @@ public class PlayerPhysics : MonoBehaviour {
 				deltaY = 0;
 			}
 		}
-
-
+		
+		
 		Vector2 finalTransform = new Vector2(deltaX,deltaY);
 		
 		transform.Translate(finalTransform,Space.World);

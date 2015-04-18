@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class ObjectBehavior2 : MonoBehaviour {
-	public float speed = -15f;
+	public float speed = -20f;
 	public float timeStamp;
 	// Use this for initialization
 	void Start () {
@@ -18,6 +18,6 @@ public class ObjectBehavior2 : MonoBehaviour {
 		
 		// Destroy the enemy in 3 seconds,
 		// when it is no longer visible on the screen
-		Destroy(gameObject, 3);
+		Destroy(gameObject, 10f);
 	}
 }

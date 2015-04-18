@@ -3,16 +3,11 @@ using System.Collections;
 
 public class SpikeObstacle : MonoBehaviour
 {
-	public float dmg = 3;
+	public float ObstacleSpeed = 10;
 	// Update is called once per frame
 	void Update ()
 	{
-	
-	}
-void OnTriggerEnter(Collider hit){
-		Debug.Log("ishurt");
-		if(hit.tag == "Player"){
-			hit.GetComponent<Health>().ReceiveDmg(3);
-		}
+		this.transform.position += new Vector3(-ObstacleSpeed*Time.deltaTime,0.0f,0.0f);
+		Destroy (this.gameObject,10f);
 	}
 }
