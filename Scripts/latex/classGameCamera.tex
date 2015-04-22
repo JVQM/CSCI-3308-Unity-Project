@@ -1,0 +1,102 @@
+\hypertarget{classGameCamera}{\section{Game\-Camera Class Reference}
+\label{classGameCamera}\index{Game\-Camera@{Game\-Camera}}
+}
+Inheritance diagram for Game\-Camera\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classGameCamera}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classGameCamera_adb2bfc4c2738e33d9b98bc97fddacb4e}{Set\-Target} (Transform t)
+\begin{DoxyCompactList}\small\item\em Sets the target to aim for \end{DoxyCompactList}\item 
+void \hyperlink{classGameCamera_aa6ef15e6deb0f8921cdb93c9ad719ca0}{Update} ()
+\begin{DoxyCompactList}\small\item\em Update per frame, transforms object to target vector \end{DoxyCompactList}\item 
+float \hyperlink{classGameCamera_adb57e107c5ac3c860c1d31589453c9a4}{Increment\-Towards} (float n, float \hyperlink{classGameCamera_a952c82b1dd2710a4af6fe0fbeaca776c}{target}, float a)
+\begin{DoxyCompactList}\small\item\em Increments param n towards target by speed \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Transform \hyperlink{classGameCamera_a952c82b1dd2710a4af6fe0fbeaca776c}{target}
+\begin{DoxyCompactList}\small\item\em vector target to aim for \end{DoxyCompactList}\item 
+float \hyperlink{classGameCamera_af9039782e227fc39fa15528908e37137}{track\-Speed} = 10
+\begin{DoxyCompactList}\small\item\em The track speed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classGameCamera_adb57e107c5ac3c860c1d31589453c9a4}{\index{Game\-Camera@{Game\-Camera}!Increment\-Towards@{Increment\-Towards}}
+\index{Increment\-Towards@{Increment\-Towards}!GameCamera@{Game\-Camera}}
+\subsubsection[{Increment\-Towards}]{\setlength{\rightskip}{0pt plus 5cm}float Game\-Camera.\-Increment\-Towards (
+\begin{DoxyParamCaption}
+\item[{float}]{n, }
+\item[{float}]{target, }
+\item[{float}]{a}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classGameCamera_adb57e107c5ac3c860c1d31589453c9a4}
+
+
+Increments param n towards target by speed 
+
+\begin{DoxyReturn}{Returns}
+The towards.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em n} & First vector, current position vector of cam\\
+\hline
+{\em target} & Second vector, target vector for cam\\
+\hline
+{\em a} & The alpha component.\\
+\hline
+\end{DoxyParams}
+\hypertarget{classGameCamera_adb2bfc4c2738e33d9b98bc97fddacb4e}{\index{Game\-Camera@{Game\-Camera}!Set\-Target@{Set\-Target}}
+\index{Set\-Target@{Set\-Target}!GameCamera@{Game\-Camera}}
+\subsubsection[{Set\-Target}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Camera.\-Set\-Target (
+\begin{DoxyParamCaption}
+\item[{Transform}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classGameCamera_adb2bfc4c2738e33d9b98bc97fddacb4e}
+
+
+Sets the target to aim for 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & vector to aim for\\
+\hline
+\end{DoxyParams}
+\hypertarget{classGameCamera_aa6ef15e6deb0f8921cdb93c9ad719ca0}{\index{Game\-Camera@{Game\-Camera}!Update@{Update}}
+\index{Update@{Update}!GameCamera@{Game\-Camera}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Game\-Camera.\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classGameCamera_aa6ef15e6deb0f8921cdb93c9ad719ca0}
+
+
+Update per frame, transforms object to target vector 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classGameCamera_a952c82b1dd2710a4af6fe0fbeaca776c}{\index{Game\-Camera@{Game\-Camera}!target@{target}}
+\index{target@{target}!GameCamera@{Game\-Camera}}
+\subsubsection[{target}]{\setlength{\rightskip}{0pt plus 5cm}Transform Game\-Camera.\-target}}\label{classGameCamera_a952c82b1dd2710a4af6fe0fbeaca776c}
+
+
+vector target to aim for 
+
+\hypertarget{classGameCamera_af9039782e227fc39fa15528908e37137}{\index{Game\-Camera@{Game\-Camera}!track\-Speed@{track\-Speed}}
+\index{track\-Speed@{track\-Speed}!GameCamera@{Game\-Camera}}
+\subsubsection[{track\-Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Game\-Camera.\-track\-Speed = 10}}\label{classGameCamera_af9039782e227fc39fa15528908e37137}
+
+
+The track speed. 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Game\-Camera.\-cs\end{DoxyCompactItemize}

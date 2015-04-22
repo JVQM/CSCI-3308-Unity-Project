@@ -1,0 +1,101 @@
+\hypertarget{classBombScript}{\section{Bomb\-Script Class Reference}
+\label{classBombScript}\index{Bomb\-Script@{Bomb\-Script}}
+}
+Inheritance diagram for Bomb\-Script\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classBombScript}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classBombScript_af805ef6d3e038e1e677bddd4013d790e}{Start} ()
+\begin{DoxyCompactList}\small\item\em Stuff to do at the start, gets attached animator and audio source \end{DoxyCompactList}\item 
+void \hyperlink{classBombScript_ac503477a92904905bd3940a5f88dae7b}{Update} ()
+\begin{DoxyCompactList}\small\item\em Updates per frame, moves object left per frame, checks if dead, if true, starts death animation\& sound then destroys object \end{DoxyCompactList}\item 
+void \hyperlink{classBombScript_ad2919ec2099dd9b523c9f19e8331cb89}{On\-Trigger\-Enter} (Collider col)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Animator \hyperlink{classBombScript_ad035f9b68c323985dfe3e6a77b01f252}{Bomb\-Enemy}
+\begin{DoxyCompactList}\small\item\em The bomb enemy. \end{DoxyCompactList}\item 
+Audio\-Source \hyperlink{classBombScript_a1c1f970bb78dc842d25b57d37c963c0e}{Explosion\-S\-D}
+\begin{DoxyCompactList}\small\item\em The explosion S. \end{DoxyCompactList}\item 
+float \hyperlink{classBombScript_afba19f8bfc4dcd938590b616b81de052}{Enemy\-Speed} = 0.\-1f
+\begin{DoxyCompactList}\small\item\em The enemy speed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classBombScript_ad2919ec2099dd9b523c9f19e8331cb89}{\index{Bomb\-Script@{Bomb\-Script}!On\-Trigger\-Enter@{On\-Trigger\-Enter}}
+\index{On\-Trigger\-Enter@{On\-Trigger\-Enter}!BombScript@{Bomb\-Script}}
+\subsubsection[{On\-Trigger\-Enter}]{\setlength{\rightskip}{0pt plus 5cm}void Bomb\-Script.\-On\-Trigger\-Enter (
+\begin{DoxyParamCaption}
+\item[{Collider}]{col}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classBombScript_ad2919ec2099dd9b523c9f19e8331cb89}
+
+
+
+
+Raises the trigger enter event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em col} & Col collision parameter to detect collisions\\
+\hline
+{\em return} & Tag \char`\"{}\-Player\char`\"{} collision causes \hyperlink{classHealth}{Health} call, Dmg received \& object destruct\\
+\hline
+\end{DoxyParams}
+\hypertarget{classBombScript_af805ef6d3e038e1e677bddd4013d790e}{\index{Bomb\-Script@{Bomb\-Script}!Start@{Start}}
+\index{Start@{Start}!BombScript@{Bomb\-Script}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void Bomb\-Script.\-Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classBombScript_af805ef6d3e038e1e677bddd4013d790e}
+
+
+Stuff to do at the start, gets attached animator and audio source 
+
+\hypertarget{classBombScript_ac503477a92904905bd3940a5f88dae7b}{\index{Bomb\-Script@{Bomb\-Script}!Update@{Update}}
+\index{Update@{Update}!BombScript@{Bomb\-Script}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Bomb\-Script.\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classBombScript_ac503477a92904905bd3940a5f88dae7b}
+
+
+Updates per frame, moves object left per frame, checks if dead, if true, starts death animation\& sound then destroys object 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classBombScript_ad035f9b68c323985dfe3e6a77b01f252}{\index{Bomb\-Script@{Bomb\-Script}!Bomb\-Enemy@{Bomb\-Enemy}}
+\index{Bomb\-Enemy@{Bomb\-Enemy}!BombScript@{Bomb\-Script}}
+\subsubsection[{Bomb\-Enemy}]{\setlength{\rightskip}{0pt plus 5cm}Animator Bomb\-Script.\-Bomb\-Enemy}}\label{classBombScript_ad035f9b68c323985dfe3e6a77b01f252}
+
+
+The bomb enemy. 
+
+\hypertarget{classBombScript_afba19f8bfc4dcd938590b616b81de052}{\index{Bomb\-Script@{Bomb\-Script}!Enemy\-Speed@{Enemy\-Speed}}
+\index{Enemy\-Speed@{Enemy\-Speed}!BombScript@{Bomb\-Script}}
+\subsubsection[{Enemy\-Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Bomb\-Script.\-Enemy\-Speed = 0.\-1f}}\label{classBombScript_afba19f8bfc4dcd938590b616b81de052}
+
+
+The enemy speed. 
+
+\hypertarget{classBombScript_a1c1f970bb78dc842d25b57d37c963c0e}{\index{Bomb\-Script@{Bomb\-Script}!Explosion\-S\-D@{Explosion\-S\-D}}
+\index{Explosion\-S\-D@{Explosion\-S\-D}!BombScript@{Bomb\-Script}}
+\subsubsection[{Explosion\-S\-D}]{\setlength{\rightskip}{0pt plus 5cm}Audio\-Source Bomb\-Script.\-Explosion\-S\-D}}\label{classBombScript_a1c1f970bb78dc842d25b57d37c963c0e}
+
+
+The explosion S. 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Bomb\-Script.\-cs\end{DoxyCompactItemize}
