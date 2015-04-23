@@ -4,19 +4,19 @@ using System.Collections;
 public class GameController : MonoBehaviour
 {
 	/// <summary>
-	/// 1st Placement for gameObject spawning 
+	/// 1st Placement for gameObject spawning. 
 	/// </summary>
 	public GameObject Object1;
 	/// <summary>
-	/// 2nd Placement for gameObject spawning
+	/// 2nd Placement for gameObject spawning.
 	/// </summary>
 	public GameObject Object2;
 	/// <summary>
-	/// 3rd Placement for gameObject spawning
+	/// 3rd Placement for gameObject spawning.
 	/// </summary>
 	public GameObject Object3;
 	/// <summary>
-	/// Hazard spot for randomizing between 3 objects
+	/// Hazard spot for randomizing between 3 objects.
 	/// </summary>
 	public GameObject hazard;
 	/// <summary>

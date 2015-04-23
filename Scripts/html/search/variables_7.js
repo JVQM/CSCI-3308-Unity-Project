@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['jumpheight',['jumpHeight',['../classPlayerController.html#a1f5dfe5afd998f509dbb405800619b6d',1,'PlayerController']]],
-  ['jumpsd',['JumpSD',['../classPlayerController.html#a3f516eecb6942aa1ec667de83154d350',1,'PlayerController']]]
+  ['hazard',['hazard',['../classGameController.html#a77c185a594a084fe342e8de517808654',1,'GameController']]],
+  ['hazardcount',['hazardCount',['../classGameController.html#a973f0e7d25e3b260cf0aa51730584ada',1,'GameController']]],
+  ['healamt',['HealAMT',['../classMedPack.html#a7d896451dc580637510d0d345db611da',1,'MedPack']]]
 ];

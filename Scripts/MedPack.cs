@@ -7,8 +7,9 @@ public class MedPack : MonoBehaviour {
 	/// </summary>
 	public float MedSpeed = 0.1f;
 	/// <summary>
-	/// The total heal amount	/// </summary>
-	public float HealAMT = 5;
+	/// The total heal amount.	
+	/// </summary>
+	public float HealAMT = 2;
 	// Use this for initialization
 	void Start () {
 	

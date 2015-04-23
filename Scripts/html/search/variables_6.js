@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['hazard',['hazard',['../classGameController.html#a77c185a594a084fe342e8de517808654',1,'GameController']]],
-  ['hazardcount',['hazardCount',['../classGameController.html#a973f0e7d25e3b260cf0aa51730584ada',1,'GameController']]],
-  ['healamt',['HealAMT',['../classMedPack.html#a7d896451dc580637510d0d345db611da',1,'MedPack']]]
+  ['gravity',['gravity',['../classPlayerController.html#a0a8e0eb9de4ccc5bd5f4cc5b44469b01',1,'PlayerController']]],
+  ['grounded',['grounded',['../classPlayerPhysics.html#a4bfbf0d7e9812d79434526592790f419',1,'PlayerPhysics']]]
 ];

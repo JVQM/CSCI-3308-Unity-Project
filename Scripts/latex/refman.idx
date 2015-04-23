@@ -20,118 +20,133 @@
 \indexentry{Bulletspeed@{Bulletspeed}!Bullets@{Bullets}|hyperpage}{7}
 \indexentry{Bullets@{Bullets}!Dmg@{Dmg}|hyperpage}{7}
 \indexentry{Dmg@{Dmg}!Bullets@{Bullets}|hyperpage}{7}
-\indexentry{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time@{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}|hyperpage}{7}
+\indexentry{Coin\discretionary {-}{}{}Script@{Coin\discretionary {-}{}{}Script}|hyperpage}{7}
+\indexentry{Crate\discretionary {-}{}{}Script@{Crate\discretionary {-}{}{}Script}|hyperpage}{8}
+\indexentry{Crate\discretionary {-}{}{}Script@{Crate\discretionary {-}{}{}Script}!Enemy\discretionary {-}{}{}Speed@{Enemy\discretionary {-}{}{}Speed}|hyperpage}{8}
+\indexentry{Enemy\discretionary {-}{}{}Speed@{Enemy\discretionary {-}{}{}Speed}!CrateScript@{Crate\discretionary {-}{}{}Script}|hyperpage}{8}
+\indexentry{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time@{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}|hyperpage}{8}
 \indexentry{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time@{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}!Start@{Start}|hyperpage}{8}
 \indexentry{Start@{Start}!DestroyByTime@{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}|hyperpage}{8}
-\indexentry{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time@{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}!lifetime@{lifetime}|hyperpage}{8}
-\indexentry{lifetime@{lifetime}!DestroyByTime@{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}|hyperpage}{8}
-\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}|hyperpage}{8}
+\indexentry{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time@{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}!lifetime@{lifetime}|hyperpage}{9}
+\indexentry{lifetime@{lifetime}!DestroyByTime@{Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}|hyperpage}{9}
+\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}|hyperpage}{9}
 \indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!Increment\discretionary {-}{}{}Towards@{Increment\discretionary {-}{}{}Towards}|hyperpage}{9}
 \indexentry{Increment\discretionary {-}{}{}Towards@{Increment\discretionary {-}{}{}Towards}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{9}
-\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!Set\discretionary {-}{}{}Target@{Set\discretionary {-}{}{}Target}|hyperpage}{9}
-\indexentry{Set\discretionary {-}{}{}Target@{Set\discretionary {-}{}{}Target}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{9}
-\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!Update@{Update}|hyperpage}{9}
-\indexentry{Update@{Update}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{9}
-\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!target@{target}|hyperpage}{9}
-\indexentry{target@{target}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{9}
-\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!track\discretionary {-}{}{}Speed@{track\discretionary {-}{}{}Speed}|hyperpage}{9}
-\indexentry{track\discretionary {-}{}{}Speed@{track\discretionary {-}{}{}Speed}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{9}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}|hyperpage}{9}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!Start@{Start}|hyperpage}{10}
-\indexentry{Start@{Start}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{10}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!Update@{Update}|hyperpage}{10}
-\indexentry{Update@{Update}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{10}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!hazard@{hazard}|hyperpage}{10}
-\indexentry{hazard@{hazard}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{10}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!hazard\discretionary {-}{}{}Count@{hazard\discretionary {-}{}{}Count}|hyperpage}{10}
-\indexentry{hazard\discretionary {-}{}{}Count@{hazard\discretionary {-}{}{}Count}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{10}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!Object1@{Object1}|hyperpage}{10}
-\indexentry{Object1@{Object1}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{10}
+\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!Set\discretionary {-}{}{}Target@{Set\discretionary {-}{}{}Target}|hyperpage}{10}
+\indexentry{Set\discretionary {-}{}{}Target@{Set\discretionary {-}{}{}Target}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{10}
+\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!Update@{Update}|hyperpage}{10}
+\indexentry{Update@{Update}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{10}
+\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!target@{target}|hyperpage}{10}
+\indexentry{target@{target}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{10}
+\indexentry{Game\discretionary {-}{}{}Camera@{Game\discretionary {-}{}{}Camera}!track\discretionary {-}{}{}Speed@{track\discretionary {-}{}{}Speed}|hyperpage}{10}
+\indexentry{track\discretionary {-}{}{}Speed@{track\discretionary {-}{}{}Speed}!GameCamera@{Game\discretionary {-}{}{}Camera}|hyperpage}{10}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}|hyperpage}{10}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!Start@{Start}|hyperpage}{11}
+\indexentry{Start@{Start}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!Update@{Update}|hyperpage}{11}
+\indexentry{Update@{Update}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!hazard@{hazard}|hyperpage}{11}
+\indexentry{hazard@{hazard}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!hazard\discretionary {-}{}{}Count@{hazard\discretionary {-}{}{}Count}|hyperpage}{11}
+\indexentry{hazard\discretionary {-}{}{}Count@{hazard\discretionary {-}{}{}Count}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!Object1@{Object1}|hyperpage}{11}
+\indexentry{Object1@{Object1}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
 \indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!Object2@{Object2}|hyperpage}{11}
 \indexentry{Object2@{Object2}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
 \indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!Object3@{Object3}|hyperpage}{11}
 \indexentry{Object3@{Object3}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!spawn\discretionary {-}{}{}Values@{spawn\discretionary {-}{}{}Values}|hyperpage}{11}
-\indexentry{spawn\discretionary {-}{}{}Values@{spawn\discretionary {-}{}{}Values}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!spawn\discretionary {-}{}{}Wait@{spawn\discretionary {-}{}{}Wait}|hyperpage}{11}
-\indexentry{spawn\discretionary {-}{}{}Wait@{spawn\discretionary {-}{}{}Wait}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!start\discretionary {-}{}{}Wait@{start\discretionary {-}{}{}Wait}|hyperpage}{11}
-\indexentry{start\discretionary {-}{}{}Wait@{start\discretionary {-}{}{}Wait}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
-\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!wave\discretionary {-}{}{}Wait@{wave\discretionary {-}{}{}Wait}|hyperpage}{11}
-\indexentry{wave\discretionary {-}{}{}Wait@{wave\discretionary {-}{}{}Wait}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{11}
-\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}|hyperpage}{11}
-\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}!Spawn\discretionary {-}{}{}Player@{Spawn\discretionary {-}{}{}Player}|hyperpage}{12}
-\indexentry{Spawn\discretionary {-}{}{}Player@{Spawn\discretionary {-}{}{}Player}!GameManager@{Game\discretionary {-}{}{}Manager}|hyperpage}{12}
-\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}!Start@{Start}|hyperpage}{12}
-\indexentry{Start@{Start}!GameManager@{Game\discretionary {-}{}{}Manager}|hyperpage}{12}
-\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}!cam@{cam}|hyperpage}{12}
-\indexentry{cam@{cam}!GameManager@{Game\discretionary {-}{}{}Manager}|hyperpage}{12}
-\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}!player@{player}|hyperpage}{12}
-\indexentry{player@{player}!GameManager@{Game\discretionary {-}{}{}Manager}|hyperpage}{12}
-\indexentry{Health@{Health}|hyperpage}{12}
-\indexentry{Health@{Health}!is\discretionary {-}{}{}Dead@{is\discretionary {-}{}{}Dead}|hyperpage}{13}
-\indexentry{is\discretionary {-}{}{}Dead@{is\discretionary {-}{}{}Dead}!Health@{Health}|hyperpage}{13}
-\indexentry{Health@{Health}!Receive\discretionary {-}{}{}Dmg@{Receive\discretionary {-}{}{}Dmg}|hyperpage}{13}
-\indexentry{Receive\discretionary {-}{}{}Dmg@{Receive\discretionary {-}{}{}Dmg}!Health@{Health}|hyperpage}{13}
-\indexentry{Health@{Health}!current\discretionary {-}{}{}Health@{current\discretionary {-}{}{}Health}|hyperpage}{13}
-\indexentry{current\discretionary {-}{}{}Health@{current\discretionary {-}{}{}Health}!Health@{Health}|hyperpage}{13}
-\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}|hyperpage}{13}
-\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}!On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter@{On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}|hyperpage}{14}
-\indexentry{On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter@{On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}!MedPack@{Med\discretionary {-}{}{}Pack}|hyperpage}{14}
-\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}!Update@{Update}|hyperpage}{14}
-\indexentry{Update@{Update}!MedPack@{Med\discretionary {-}{}{}Pack}|hyperpage}{14}
-\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}!Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T@{Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T}|hyperpage}{14}
-\indexentry{Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T@{Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T}!MedPack@{Med\discretionary {-}{}{}Pack}|hyperpage}{14}
-\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}!Med\discretionary {-}{}{}Speed@{Med\discretionary {-}{}{}Speed}|hyperpage}{14}
-\indexentry{Med\discretionary {-}{}{}Speed@{Med\discretionary {-}{}{}Speed}!MedPack@{Med\discretionary {-}{}{}Pack}|hyperpage}{14}
-\indexentry{Object\discretionary {-}{}{}Behavior2@{Object\discretionary {-}{}{}Behavior2}|hyperpage}{14}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}|hyperpage}{15}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Start@{Start}|hyperpage}{16}
-\indexentry{Start@{Start}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Update@{Update}|hyperpage}{16}
-\indexentry{Update@{Update}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!acceleration@{acceleration}|hyperpage}{16}
-\indexentry{acceleration@{acceleration}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!amount\discretionary {-}{}{}To\discretionary {-}{}{}Move@{amount\discretionary {-}{}{}To\discretionary {-}{}{}Move}|hyperpage}{16}
-\indexentry{amount\discretionary {-}{}{}To\discretionary {-}{}{}Move@{amount\discretionary {-}{}{}To\discretionary {-}{}{}Move}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!current\discretionary {-}{}{}Speed@{current\discretionary {-}{}{}Speed}|hyperpage}{16}
-\indexentry{current\discretionary {-}{}{}Speed@{current\discretionary {-}{}{}Speed}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Death\discretionary {-}{}{}S\discretionary {-}{}{}D@{Death\discretionary {-}{}{}S\discretionary {-}{}{}D}|hyperpage}{16}
-\indexentry{Death\discretionary {-}{}{}S\discretionary {-}{}{}D@{Death\discretionary {-}{}{}S\discretionary {-}{}{}D}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!gravity@{gravity}|hyperpage}{16}
-\indexentry{gravity@{gravity}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!jump\discretionary {-}{}{}Height@{jump\discretionary {-}{}{}Height}|hyperpage}{16}
-\indexentry{jump\discretionary {-}{}{}Height@{jump\discretionary {-}{}{}Height}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Jump\discretionary {-}{}{}S\discretionary {-}{}{}D@{Jump\discretionary {-}{}{}S\discretionary {-}{}{}D}|hyperpage}{16}
-\indexentry{Jump\discretionary {-}{}{}S\discretionary {-}{}{}D@{Jump\discretionary {-}{}{}S\discretionary {-}{}{}D}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Player@{Player}|hyperpage}{16}
-\indexentry{Player@{Player}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!player\discretionary {-}{}{}Physics@{player\discretionary {-}{}{}Physics}|hyperpage}{16}
-\indexentry{player\discretionary {-}{}{}Physics@{player\discretionary {-}{}{}Physics}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Roll\discretionary {-}{}{}S\discretionary {-}{}{}D@{Roll\discretionary {-}{}{}S\discretionary {-}{}{}D}|hyperpage}{16}
-\indexentry{Roll\discretionary {-}{}{}S\discretionary {-}{}{}D@{Roll\discretionary {-}{}{}S\discretionary {-}{}{}D}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Shot\discretionary {-}{}{}S\discretionary {-}{}{}D@{Shot\discretionary {-}{}{}S\discretionary {-}{}{}D}|hyperpage}{17}
-\indexentry{Shot\discretionary {-}{}{}S\discretionary {-}{}{}D@{Shot\discretionary {-}{}{}S\discretionary {-}{}{}D}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!speed@{speed}|hyperpage}{17}
-\indexentry{speed@{speed}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
-\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!target\discretionary {-}{}{}Speed@{target\discretionary {-}{}{}Speed}|hyperpage}{17}
-\indexentry{target\discretionary {-}{}{}Speed@{target\discretionary {-}{}{}Speed}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
-\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}|hyperpage}{17}
-\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!Move@{Move}|hyperpage}{18}
-\indexentry{Move@{Move}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{18}
-\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!Start@{Start}|hyperpage}{19}
-\indexentry{Start@{Start}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{19}
-\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!collision\discretionary {-}{}{}Mask@{collision\discretionary {-}{}{}Mask}|hyperpage}{19}
-\indexentry{collision\discretionary {-}{}{}Mask@{collision\discretionary {-}{}{}Mask}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{19}
-\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!grounded@{grounded}|hyperpage}{19}
-\indexentry{grounded@{grounded}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{19}
-\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!movement\discretionary {-}{}{}Stopped@{movement\discretionary {-}{}{}Stopped}|hyperpage}{19}
-\indexentry{movement\discretionary {-}{}{}Stopped@{movement\discretionary {-}{}{}Stopped}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{19}
-\indexentry{Spike\discretionary {-}{}{}Obstacle@{Spike\discretionary {-}{}{}Obstacle}|hyperpage}{19}
-\indexentry{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}|hyperpage}{19}
-\indexentry{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}!Update@{Update}|hyperpage}{20}
-\indexentry{Update@{Update}!TestColliderandHealth@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}|hyperpage}{20}
-\indexentry{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}!New\discretionary {-}{}{}Health@{New\discretionary {-}{}{}Health}|hyperpage}{20}
-\indexentry{New\discretionary {-}{}{}Health@{New\discretionary {-}{}{}Health}!TestColliderandHealth@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}|hyperpage}{20}
-\indexentry{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}!Previous\discretionary {-}{}{}Health@{Previous\discretionary {-}{}{}Health}|hyperpage}{20}
-\indexentry{Previous\discretionary {-}{}{}Health@{Previous\discretionary {-}{}{}Health}!TestColliderandHealth@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}|hyperpage}{20}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!spawn\discretionary {-}{}{}Values@{spawn\discretionary {-}{}{}Values}|hyperpage}{12}
+\indexentry{spawn\discretionary {-}{}{}Values@{spawn\discretionary {-}{}{}Values}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{12}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!spawn\discretionary {-}{}{}Wait@{spawn\discretionary {-}{}{}Wait}|hyperpage}{12}
+\indexentry{spawn\discretionary {-}{}{}Wait@{spawn\discretionary {-}{}{}Wait}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{12}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!start\discretionary {-}{}{}Wait@{start\discretionary {-}{}{}Wait}|hyperpage}{12}
+\indexentry{start\discretionary {-}{}{}Wait@{start\discretionary {-}{}{}Wait}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{12}
+\indexentry{Game\discretionary {-}{}{}Controller@{Game\discretionary {-}{}{}Controller}!wave\discretionary {-}{}{}Wait@{wave\discretionary {-}{}{}Wait}|hyperpage}{12}
+\indexentry{wave\discretionary {-}{}{}Wait@{wave\discretionary {-}{}{}Wait}!GameController@{Game\discretionary {-}{}{}Controller}|hyperpage}{12}
+\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}|hyperpage}{12}
+\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}!Spawn\discretionary {-}{}{}Player@{Spawn\discretionary {-}{}{}Player}|hyperpage}{13}
+\indexentry{Spawn\discretionary {-}{}{}Player@{Spawn\discretionary {-}{}{}Player}!GameManager@{Game\discretionary {-}{}{}Manager}|hyperpage}{13}
+\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}!Start@{Start}|hyperpage}{13}
+\indexentry{Start@{Start}!GameManager@{Game\discretionary {-}{}{}Manager}|hyperpage}{13}
+\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}!cam@{cam}|hyperpage}{13}
+\indexentry{cam@{cam}!GameManager@{Game\discretionary {-}{}{}Manager}|hyperpage}{13}
+\indexentry{Game\discretionary {-}{}{}Manager@{Game\discretionary {-}{}{}Manager}!player@{player}|hyperpage}{13}
+\indexentry{player@{player}!GameManager@{Game\discretionary {-}{}{}Manager}|hyperpage}{13}
+\indexentry{Health@{Health}|hyperpage}{13}
+\indexentry{Health@{Health}!is\discretionary {-}{}{}Dead@{is\discretionary {-}{}{}Dead}|hyperpage}{14}
+\indexentry{is\discretionary {-}{}{}Dead@{is\discretionary {-}{}{}Dead}!Health@{Health}|hyperpage}{14}
+\indexentry{Health@{Health}!Receive\discretionary {-}{}{}Dmg@{Receive\discretionary {-}{}{}Dmg}|hyperpage}{14}
+\indexentry{Receive\discretionary {-}{}{}Dmg@{Receive\discretionary {-}{}{}Dmg}!Health@{Health}|hyperpage}{14}
+\indexentry{Health@{Health}!current\discretionary {-}{}{}Health@{current\discretionary {-}{}{}Health}|hyperpage}{14}
+\indexentry{current\discretionary {-}{}{}Health@{current\discretionary {-}{}{}Health}!Health@{Health}|hyperpage}{14}
+\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}|hyperpage}{14}
+\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}!On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter@{On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}|hyperpage}{15}
+\indexentry{On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter@{On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}!MedPack@{Med\discretionary {-}{}{}Pack}|hyperpage}{15}
+\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}!Update@{Update}|hyperpage}{15}
+\indexentry{Update@{Update}!MedPack@{Med\discretionary {-}{}{}Pack}|hyperpage}{15}
+\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}!Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T@{Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T}|hyperpage}{15}
+\indexentry{Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T@{Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T}!MedPack@{Med\discretionary {-}{}{}Pack}|hyperpage}{15}
+\indexentry{Med\discretionary {-}{}{}Pack@{Med\discretionary {-}{}{}Pack}!Med\discretionary {-}{}{}Speed@{Med\discretionary {-}{}{}Speed}|hyperpage}{15}
+\indexentry{Med\discretionary {-}{}{}Speed@{Med\discretionary {-}{}{}Speed}!MedPack@{Med\discretionary {-}{}{}Pack}|hyperpage}{15}
+\indexentry{Object\discretionary {-}{}{}Behavior2@{Object\discretionary {-}{}{}Behavior2}|hyperpage}{15}
+\indexentry{Object\discretionary {-}{}{}Behavior2@{Object\discretionary {-}{}{}Behavior2}!speed@{speed}|hyperpage}{15}
+\indexentry{speed@{speed}!ObjectBehavior2@{Object\discretionary {-}{}{}Behavior2}|hyperpage}{15}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}|hyperpage}{16}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Start@{Start}|hyperpage}{17}
+\indexentry{Start@{Start}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Update@{Update}|hyperpage}{17}
+\indexentry{Update@{Update}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!acceleration@{acceleration}|hyperpage}{17}
+\indexentry{acceleration@{acceleration}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!amount\discretionary {-}{}{}To\discretionary {-}{}{}Move@{amount\discretionary {-}{}{}To\discretionary {-}{}{}Move}|hyperpage}{17}
+\indexentry{amount\discretionary {-}{}{}To\discretionary {-}{}{}Move@{amount\discretionary {-}{}{}To\discretionary {-}{}{}Move}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!current\discretionary {-}{}{}Speed@{current\discretionary {-}{}{}Speed}|hyperpage}{17}
+\indexentry{current\discretionary {-}{}{}Speed@{current\discretionary {-}{}{}Speed}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Death\discretionary {-}{}{}S\discretionary {-}{}{}D@{Death\discretionary {-}{}{}S\discretionary {-}{}{}D}|hyperpage}{17}
+\indexentry{Death\discretionary {-}{}{}S\discretionary {-}{}{}D@{Death\discretionary {-}{}{}S\discretionary {-}{}{}D}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!gravity@{gravity}|hyperpage}{17}
+\indexentry{gravity@{gravity}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!jump\discretionary {-}{}{}Height@{jump\discretionary {-}{}{}Height}|hyperpage}{17}
+\indexentry{jump\discretionary {-}{}{}Height@{jump\discretionary {-}{}{}Height}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Jump\discretionary {-}{}{}S\discretionary {-}{}{}D@{Jump\discretionary {-}{}{}S\discretionary {-}{}{}D}|hyperpage}{17}
+\indexentry{Jump\discretionary {-}{}{}S\discretionary {-}{}{}D@{Jump\discretionary {-}{}{}S\discretionary {-}{}{}D}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Player@{Player}|hyperpage}{17}
+\indexentry{Player@{Player}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!player\discretionary {-}{}{}Physics@{player\discretionary {-}{}{}Physics}|hyperpage}{17}
+\indexentry{player\discretionary {-}{}{}Physics@{player\discretionary {-}{}{}Physics}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Roll\discretionary {-}{}{}S\discretionary {-}{}{}D@{Roll\discretionary {-}{}{}S\discretionary {-}{}{}D}|hyperpage}{17}
+\indexentry{Roll\discretionary {-}{}{}S\discretionary {-}{}{}D@{Roll\discretionary {-}{}{}S\discretionary {-}{}{}D}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{17}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!Shot\discretionary {-}{}{}S\discretionary {-}{}{}D@{Shot\discretionary {-}{}{}S\discretionary {-}{}{}D}|hyperpage}{18}
+\indexentry{Shot\discretionary {-}{}{}S\discretionary {-}{}{}D@{Shot\discretionary {-}{}{}S\discretionary {-}{}{}D}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{18}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!speed@{speed}|hyperpage}{18}
+\indexentry{speed@{speed}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{18}
+\indexentry{Player\discretionary {-}{}{}Controller@{Player\discretionary {-}{}{}Controller}!target\discretionary {-}{}{}Speed@{target\discretionary {-}{}{}Speed}|hyperpage}{18}
+\indexentry{target\discretionary {-}{}{}Speed@{target\discretionary {-}{}{}Speed}!PlayerController@{Player\discretionary {-}{}{}Controller}|hyperpage}{18}
+\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}|hyperpage}{18}
+\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!Move@{Move}|hyperpage}{19}
+\indexentry{Move@{Move}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{19}
+\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!Start@{Start}|hyperpage}{20}
+\indexentry{Start@{Start}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{20}
+\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!collision\discretionary {-}{}{}Mask@{collision\discretionary {-}{}{}Mask}|hyperpage}{20}
+\indexentry{collision\discretionary {-}{}{}Mask@{collision\discretionary {-}{}{}Mask}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{20}
+\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!grounded@{grounded}|hyperpage}{20}
+\indexentry{grounded@{grounded}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{20}
+\indexentry{Player\discretionary {-}{}{}Physics@{Player\discretionary {-}{}{}Physics}!movement\discretionary {-}{}{}Stopped@{movement\discretionary {-}{}{}Stopped}|hyperpage}{20}
+\indexentry{movement\discretionary {-}{}{}Stopped@{movement\discretionary {-}{}{}Stopped}!PlayerPhysics@{Player\discretionary {-}{}{}Physics}|hyperpage}{20}
+\indexentry{Spawn\discretionary {-}{}{}Floor@{Spawn\discretionary {-}{}{}Floor}|hyperpage}{20}
+\indexentry{Spawn\discretionary {-}{}{}Floor@{Spawn\discretionary {-}{}{}Floor}!floor@{floor}|hyperpage}{21}
+\indexentry{floor@{floor}!SpawnFloor@{Spawn\discretionary {-}{}{}Floor}|hyperpage}{21}
+\indexentry{Spawn\discretionary {-}{}{}Floor@{Spawn\discretionary {-}{}{}Floor}!spawn\discretionary {-}{}{}Values@{spawn\discretionary {-}{}{}Values}|hyperpage}{21}
+\indexentry{spawn\discretionary {-}{}{}Values@{spawn\discretionary {-}{}{}Values}!SpawnFloor@{Spawn\discretionary {-}{}{}Floor}|hyperpage}{21}
+\indexentry{Spawn\discretionary {-}{}{}Floor@{Spawn\discretionary {-}{}{}Floor}!spawn\discretionary {-}{}{}Wait@{spawn\discretionary {-}{}{}Wait}|hyperpage}{21}
+\indexentry{spawn\discretionary {-}{}{}Wait@{spawn\discretionary {-}{}{}Wait}!SpawnFloor@{Spawn\discretionary {-}{}{}Floor}|hyperpage}{21}
+\indexentry{Spawn\discretionary {-}{}{}Floor@{Spawn\discretionary {-}{}{}Floor}!start\discretionary {-}{}{}Wait@{start\discretionary {-}{}{}Wait}|hyperpage}{21}
+\indexentry{start\discretionary {-}{}{}Wait@{start\discretionary {-}{}{}Wait}!SpawnFloor@{Spawn\discretionary {-}{}{}Floor}|hyperpage}{21}
+\indexentry{Spike\discretionary {-}{}{}Obstacle@{Spike\discretionary {-}{}{}Obstacle}|hyperpage}{21}
+\indexentry{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}|hyperpage}{21}
+\indexentry{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}!Update@{Update}|hyperpage}{22}
+\indexentry{Update@{Update}!TestColliderandHealth@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}|hyperpage}{22}
+\indexentry{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}!New\discretionary {-}{}{}Health@{New\discretionary {-}{}{}Health}|hyperpage}{22}
+\indexentry{New\discretionary {-}{}{}Health@{New\discretionary {-}{}{}Health}!TestColliderandHealth@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}|hyperpage}{22}
+\indexentry{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}!Previous\discretionary {-}{}{}Health@{Previous\discretionary {-}{}{}Health}|hyperpage}{22}
+\indexentry{Previous\discretionary {-}{}{}Health@{Previous\discretionary {-}{}{}Health}!TestColliderandHealth@{Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}|hyperpage}{22}

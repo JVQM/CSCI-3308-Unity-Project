@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['receivedmg',['ReceiveDmg',['../classHealth.html#a0c741273cc605c39ec6fbe1f7afc208f',1,'Health']]],
-  ['rollsd',['RollSD',['../classPlayerController.html#a205f3898c18c6338d4e12f33222d90f5',1,'PlayerController']]]
+  ['player',['Player',['../classPlayerController.html#af6d2c371d77ff294a3840e6e26608e24',1,'PlayerController.Player()'],['../classGameManager.html#abe8e79771775bc67c63c4ac43349dc8a',1,'GameManager.player()']]],
+  ['playercontroller',['PlayerController',['../classPlayerController.html',1,'']]],
+  ['playerphysics',['PlayerPhysics',['../classPlayerPhysics.html',1,'PlayerPhysics'],['../classPlayerController.html#a039e255582f5fb656710b996fce4667e',1,'PlayerController.playerPhysics()']]],
+  ['previoushealth',['PreviousHealth',['../classTestColliderandHealth.html#a4de3c72b663ad686bb26ebfde82b5889',1,'TestColliderandHealth']]]
 ];

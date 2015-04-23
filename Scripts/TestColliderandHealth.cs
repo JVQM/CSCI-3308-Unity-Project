@@ -3,11 +3,11 @@ using System.Collections;
 
 public class TestColliderandHealth : MonoBehaviour {
 	/// <summary>
-	/// Holder float to check previous health
+	/// Holder float to check previous health.
 	/// </summary>
 	public float PreviousHealth = 0;
 	/// <summary>
-	/// Holder to check new health
+	/// Holder to check new health.
 	/// </summary>
 	public float NewHealth = 0;
 	// Use this for initialization

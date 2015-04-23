@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['spikeobstacle',['SpikeObstacle',['../classSpikeObstacle.html',1,'']]]
+  ['playercontroller',['PlayerController',['../classPlayerController.html',1,'']]],
+  ['playerphysics',['PlayerPhysics',['../classPlayerPhysics.html',1,'']]]
 ];

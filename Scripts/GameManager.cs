@@ -3,11 +3,11 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 	/// <summary>
-	/// Gameobject spot to place player
+	/// Gameobject spot to place player.
 	/// </summary>
 	public GameObject player;
 	/// <summary>
-	/// Gameobject camera
+	/// Gameobject camera.
 	/// </summary>
 	public GameCamera cam;
 	

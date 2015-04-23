@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['testcolliderandhealth',['TestColliderandHealth',['../classTestColliderandHealth.html',1,'']]]
+  ['spawnfloor',['SpawnFloor',['../classSpawnFloor.html',1,'']]],
+  ['spikeobstacle',['SpikeObstacle',['../classSpikeObstacle.html',1,'']]]
 ];

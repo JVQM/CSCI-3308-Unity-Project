@@ -36,28 +36,28 @@ public class PlayerController : Health {
 	public Vector2 amountToMove;
 
 	/// <summary>
-	/// The shot Sound
+	/// The shot Sound.
 	/// </summary>
 	public AudioSource ShotSD;
 	/// <summary>
-	/// The roll Sound
+	/// The roll Sound.
 	/// </summary>
 	public AudioSource RollSD;
 	/// <summary>
-	/// The jump Sound
+	/// The jump Sound.
 	/// </summary>
 	public AudioSource JumpSD;
 	/// <summary>
-	/// The death Sound
+	/// The death Sound.
 	/// </summary>
 	public AudioSource DeathSD;
 
 	/// <summary>
-	/// Gets player physics script
+	/// Gets player physics script.
 	/// </summary>
 	public PlayerPhysics playerPhysics;
 	/// <summary>
-	/// Gets player animator
+	/// Gets player animator.
 	/// </summary>
 	public Animator Player;
 

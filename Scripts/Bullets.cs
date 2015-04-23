@@ -7,11 +7,11 @@ public class Bullets : MonoBehaviour {
 	/// </summary>
 	public float Bulletspeed = 5;
 	/// <summary>
-	/// The dmg.
+	/// The damage.
 	/// </summary>
 	public float Dmg = 5;
 	/// <summary>
-	/// Time stamp initiation
+	/// Time stamp initiation.
 	/// </summary>
 	// Use this for initialization
 	void Start () {
@@ -23,7 +23,7 @@ public class Bullets : MonoBehaviour {
 	/// </summary>
 	public void Update () {
 		this.transform.position += new Vector3(1.0f+Bulletspeed*Time.deltaTime,0.0f,0.0f);
-		Destroy(this.gameObject,1);
+		Destroy(this.gameObject,0.75f);
 	}
 	/// <summary>
 	/// Collider trigger, on hit do something

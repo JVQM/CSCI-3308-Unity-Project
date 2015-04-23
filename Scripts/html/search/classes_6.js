@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['playercontroller',['PlayerController',['../classPlayerController.html',1,'']]],
-  ['playerphysics',['PlayerPhysics',['../classPlayerPhysics.html',1,'']]]
+  ['objectbehavior2',['ObjectBehavior2',['../classObjectBehavior2.html',1,'']]]
 ];

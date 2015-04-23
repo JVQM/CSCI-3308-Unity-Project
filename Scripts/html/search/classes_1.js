@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['destroybytime',['DestroyByTime',['../classDestroyByTime.html',1,'']]]
+  ['coinscript',['CoinScript',['../classCoinScript.html',1,'']]],
+  ['cratescript',['CrateScript',['../classCrateScript.html',1,'']]]
 ];

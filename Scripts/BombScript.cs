@@ -44,9 +44,9 @@ public class BombScript : MonoBehaviour {
 		if(col != null){
 			if(col.gameObject.tag == "Player"){
 				BombEnemy.SetTrigger ("Explode");
-				Destroy(this.gameObject,1);
+				Destroy(this.gameObject,0.5);
 				ExplosionSD.Play ();
-				col.GetComponent<Health>().ReceiveDmg (3);
+				col.GetComponent<Health>().ReceiveDmg (5);
 			}
 			}
 		}

@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['player',['Player',['../classPlayerController.html#af6d2c371d77ff294a3840e6e26608e24',1,'PlayerController.Player()'],['../classGameManager.html#abe8e79771775bc67c63c4ac43349dc8a',1,'GameManager.player()']]],
-  ['playercontroller',['PlayerController',['../classPlayerController.html',1,'']]],
-  ['playerphysics',['PlayerPhysics',['../classPlayerPhysics.html',1,'PlayerPhysics'],['../classPlayerController.html#a039e255582f5fb656710b996fce4667e',1,'PlayerController.playerPhysics()']]],
-  ['previoushealth',['PreviousHealth',['../classTestColliderandHealth.html#a4de3c72b663ad686bb26ebfde82b5889',1,'TestColliderandHealth']]]
+  ['object1',['Object1',['../classGameController.html#ae2d31db5ff00946e41b2dcd7ddda941a',1,'GameController']]],
+  ['object2',['Object2',['../classGameController.html#ab5c9311e9997c3d8a34833b3760f28f8',1,'GameController']]],
+  ['object3',['Object3',['../classGameController.html#a9956f5a361f097e051a144a2b787e5ca',1,'GameController']]],
+  ['objectbehavior2',['ObjectBehavior2',['../classObjectBehavior2.html',1,'']]],
+  ['ontriggerenter',['OnTriggerEnter',['../classBombScript.html#ad2919ec2099dd9b523c9f19e8331cb89',1,'BombScript.OnTriggerEnter()'],['../classBullets.html#a15349b695ed15b96eda82606d5da773e',1,'Bullets.OnTriggerEnter()'],['../classMedPack.html#ae69e19d12dce004d6974e23aed815e7f',1,'MedPack.OnTriggerEnter()']]]
 ];
