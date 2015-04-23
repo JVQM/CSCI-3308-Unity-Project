@@ -99,8 +99,11 @@ Inheritance diagram for PlayerPhysics:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adb50fbe957788574388514fce1dc5d89"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adb50fbe957788574388514fce1dc5d89"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Move</b> (Vector2 moveAmount)</td></tr>
+<tr class="memitem:a99b303d3104f7989b449e5b5398bc568"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerPhysics.html#a99b303d3104f7989b449e5b5398bc568">Start</a> ()</td></tr>
+<tr class="memdesc:a99b303d3104f7989b449e5b5398bc568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization, gets collider of player and its values(size and center)  <a href="#a99b303d3104f7989b449e5b5398bc568">More...</a><br/></td></tr>
+<tr class="separator:a99b303d3104f7989b449e5b5398bc568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb50fbe957788574388514fce1dc5d89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerPhysics.html#adb50fbe957788574388514fce1dc5d89">Move</a> (Vector2 moveAmount)</td></tr>
+<tr class="memdesc:adb50fbe957788574388514fce1dc5d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the specified moveAmount.  <a href="#adb50fbe957788574388514fce1dc5d89">More...</a><br/></td></tr>
 <tr class="separator:adb50fbe957788574388514fce1dc5d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a097b184f0e6479d3b6d58a4ac03be0a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a097b184f0e6479d3b6d58a4ac03be0a3"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCollider</b> (Vector3 size, Vector3 centre)</td></tr>
@@ -111,23 +114,124 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ResetCollider</b> ()<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a46b85788fa905166ae9590cac0666cf5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a46b85788fa905166ae9590cac0666cf5"></a>
-LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>collisionMask</b></td></tr>
+<tr class="memitem:a46b85788fa905166ae9590cac0666cf5"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerPhysics.html#a46b85788fa905166ae9590cac0666cf5">collisionMask</a></td></tr>
+<tr class="memdesc:a46b85788fa905166ae9590cac0666cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the layer for collisionmask, player will collide with this layer  <a href="#a46b85788fa905166ae9590cac0666cf5">More...</a><br/></td></tr>
 <tr class="separator:a46b85788fa905166ae9590cac0666cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bfbf0d7e9812d79434526592790f419"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bfbf0d7e9812d79434526592790f419"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>grounded</b></td></tr>
+<tr class="memitem:a4bfbf0d7e9812d79434526592790f419"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerPhysics.html#a4bfbf0d7e9812d79434526592790f419">grounded</a></td></tr>
+<tr class="memdesc:a4bfbf0d7e9812d79434526592790f419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean to check if object is in contact with object from bottom  <a href="#a4bfbf0d7e9812d79434526592790f419">More...</a><br/></td></tr>
 <tr class="separator:a4bfbf0d7e9812d79434526592790f419"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a790c7afaa2da5eef1fe56524bc671dd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a790c7afaa2da5eef1fe56524bc671dd4"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>movementStopped</b></td></tr>
+<tr class="memitem:a790c7afaa2da5eef1fe56524bc671dd4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayerPhysics.html#a790c7afaa2da5eef1fe56524bc671dd4">movementStopped</a></td></tr>
+<tr class="memdesc:a790c7afaa2da5eef1fe56524bc671dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean to check player is no longer moving  <a href="#a790c7afaa2da5eef1fe56524bc671dd4">More...</a><br/></td></tr>
 <tr class="separator:a790c7afaa2da5eef1fe56524bc671dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="adb50fbe957788574388514fce1dc5d89"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerPhysics.Move </td>
+          <td>(</td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>moveAmount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move the specified moveAmount. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">moveAmount</td><td>Move amount.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a99b303d3104f7989b449e5b5398bc568"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PlayerPhysics.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initialization, gets collider of player and its values(size and center) </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a46b85788fa905166ae9590cac0666cf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask PlayerPhysics.collisionMask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the layer for collisionmask, player will collide with this layer </p>
+
+</div>
+</div>
+<a class="anchor" id="a4bfbf0d7e9812d79434526592790f419"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerPhysics.grounded</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Boolean to check if object is in contact with object from bottom </p>
+
+</div>
+</div>
+<a class="anchor" id="a790c7afaa2da5eef1fe56524bc671dd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PlayerPhysics.movementStopped</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Boolean to check player is no longer moving </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>PlayerPhysics.cs</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Apr 22 2015 13:51:46 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Apr 22 2015 22:34:18 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

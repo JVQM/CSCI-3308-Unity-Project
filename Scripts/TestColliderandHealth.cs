@@ -2,17 +2,29 @@
 using System.Collections;
 
 public class TestColliderandHealth : MonoBehaviour {
-	float PreviousHealth = 0;
-	float NewHealth = 0;
+	/// <summary>
+	/// Holder float to check previous health
+	/// </summary>
+	public float PreviousHealth = 0;
+	/// <summary>
+	/// Holder to check new health
+	/// </summary>
+	public float NewHealth = 0;
 	// Use this for initialization
 	void Start () {
 	
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	/// <summary>
+	/// Update per frame to move object left to collide with player
+	/// </summary>
+	public void Update () {
 		this.transform.position += new Vector3(-5*Time.deltaTime,0.0f,0.0f);
 	}
+	/// <summary>
+	/// Collider trigger to collide with player	/// </summary>
+	/// <param name="col">Collider, if is player, run tests </param>
 	void OnTriggerEnter(Collider col){
 		if(col != null){
 			{if(col.gameObject.tag == "Player")

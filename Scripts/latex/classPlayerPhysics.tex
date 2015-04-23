@@ -10,9 +10,10 @@ Inheritance diagram for Player\-Physics\-:\begin{figure}[H]
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classPlayerPhysics_adb50fbe957788574388514fce1dc5d89}{void {\bfseries Move} (Vector2 move\-Amount)}\label{classPlayerPhysics_adb50fbe957788574388514fce1dc5d89}
-
-\item 
+void \hyperlink{classPlayerPhysics_a99b303d3104f7989b449e5b5398bc568}{Start} ()
+\begin{DoxyCompactList}\small\item\em Initialization, gets collider of player and its values(size and center) \end{DoxyCompactList}\item 
+void \hyperlink{classPlayerPhysics_adb50fbe957788574388514fce1dc5d89}{Move} (Vector2 move\-Amount)
+\begin{DoxyCompactList}\small\item\em Move the specified move\-Amount. \end{DoxyCompactList}\item 
 \hypertarget{classPlayerPhysics_a097b184f0e6479d3b6d58a4ac03be0a3}{void {\bfseries Set\-Collider} (Vector3 size, Vector3 centre)}\label{classPlayerPhysics_a097b184f0e6479d3b6d58a4ac03be0a3}
 
 \item 
@@ -22,15 +23,66 @@ Inheritance diagram for Player\-Physics\-:\begin{figure}[H]
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
-\hypertarget{classPlayerPhysics_a46b85788fa905166ae9590cac0666cf5}{Layer\-Mask {\bfseries collision\-Mask}}\label{classPlayerPhysics_a46b85788fa905166ae9590cac0666cf5}
+Layer\-Mask \hyperlink{classPlayerPhysics_a46b85788fa905166ae9590cac0666cf5}{collision\-Mask}
+\begin{DoxyCompactList}\small\item\em Set the layer for collisionmask, player will collide with this layer \end{DoxyCompactList}\item 
+bool \hyperlink{classPlayerPhysics_a4bfbf0d7e9812d79434526592790f419}{grounded}
+\begin{DoxyCompactList}\small\item\em Boolean to check if object is in contact with object from bottom \end{DoxyCompactList}\item 
+bool \hyperlink{classPlayerPhysics_a790c7afaa2da5eef1fe56524bc671dd4}{movement\-Stopped}
+\begin{DoxyCompactList}\small\item\em Boolean to check player is no longer moving \end{DoxyCompactList}\end{DoxyCompactItemize}
 
-\item 
-\hypertarget{classPlayerPhysics_a4bfbf0d7e9812d79434526592790f419}{bool {\bfseries grounded}}\label{classPlayerPhysics_a4bfbf0d7e9812d79434526592790f419}
 
-\item 
-\hypertarget{classPlayerPhysics_a790c7afaa2da5eef1fe56524bc671dd4}{bool {\bfseries movement\-Stopped}}\label{classPlayerPhysics_a790c7afaa2da5eef1fe56524bc671dd4}
+\subsection{Member Function Documentation}
+\hypertarget{classPlayerPhysics_adb50fbe957788574388514fce1dc5d89}{\index{Player\-Physics@{Player\-Physics}!Move@{Move}}
+\index{Move@{Move}!PlayerPhysics@{Player\-Physics}}
+\subsubsection[{Move}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-Physics.\-Move (
+\begin{DoxyParamCaption}
+\item[{Vector2}]{move\-Amount}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classPlayerPhysics_adb50fbe957788574388514fce1dc5d89}
 
-\end{DoxyCompactItemize}
+
+Move the specified move\-Amount. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em move\-Amount} & Move amount.\\
+\hline
+\end{DoxyParams}
+\hypertarget{classPlayerPhysics_a99b303d3104f7989b449e5b5398bc568}{\index{Player\-Physics@{Player\-Physics}!Start@{Start}}
+\index{Start@{Start}!PlayerPhysics@{Player\-Physics}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void Player\-Physics.\-Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classPlayerPhysics_a99b303d3104f7989b449e5b5398bc568}
+
+
+Initialization, gets collider of player and its values(size and center) 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classPlayerPhysics_a46b85788fa905166ae9590cac0666cf5}{\index{Player\-Physics@{Player\-Physics}!collision\-Mask@{collision\-Mask}}
+\index{collision\-Mask@{collision\-Mask}!PlayerPhysics@{Player\-Physics}}
+\subsubsection[{collision\-Mask}]{\setlength{\rightskip}{0pt plus 5cm}Layer\-Mask Player\-Physics.\-collision\-Mask}}\label{classPlayerPhysics_a46b85788fa905166ae9590cac0666cf5}
+
+
+Set the layer for collisionmask, player will collide with this layer 
+
+\hypertarget{classPlayerPhysics_a4bfbf0d7e9812d79434526592790f419}{\index{Player\-Physics@{Player\-Physics}!grounded@{grounded}}
+\index{grounded@{grounded}!PlayerPhysics@{Player\-Physics}}
+\subsubsection[{grounded}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-Physics.\-grounded}}\label{classPlayerPhysics_a4bfbf0d7e9812d79434526592790f419}
+
+
+Boolean to check if object is in contact with object from bottom 
+
+\hypertarget{classPlayerPhysics_a790c7afaa2da5eef1fe56524bc671dd4}{\index{Player\-Physics@{Player\-Physics}!movement\-Stopped@{movement\-Stopped}}
+\index{movement\-Stopped@{movement\-Stopped}!PlayerPhysics@{Player\-Physics}}
+\subsubsection[{movement\-Stopped}]{\setlength{\rightskip}{0pt plus 5cm}bool Player\-Physics.\-movement\-Stopped}}\label{classPlayerPhysics_a790c7afaa2da5eef1fe56524bc671dd4}
+
+
+Boolean to check player is no longer moving 
+
 
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}

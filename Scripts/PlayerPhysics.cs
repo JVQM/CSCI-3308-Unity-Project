@@ -6,31 +6,67 @@ using System.Collections;
 
 [RequireComponent (typeof(BoxCollider))]
 public class PlayerPhysics : MonoBehaviour {
-	
+	/// <summary>
+	/// Set the layer for collisionmask, player will collide with this layer
+	/// </summary>
 	public LayerMask collisionMask;
-	
+
+	/// <summary>
+	/// Get the player's box collider
+	/// </summary>
 	private BoxCollider collider;
+
+	/// <summary>
+	/// Collider Scaled vector
+	/// </summary>
 	private Vector3 s;
+	/// <summary>
+	/// Center of the collider
+	/// </summary>
 	private Vector3 c;
-	
+
+	/// <summary>
+	/// The size of the original vector
+	/// </summary>
 	private Vector3 originalSize;
+	/// <summary>
+	/// The original center of collider
+	/// </summary>
 	private Vector3 originalCentre;
+	/// <summary>
+	/// The collider scaled value
+	/// </summary>
 	private float colliderScale;
-	
+
+	/// <summary>
+	/// Amount of divisions in collider to detect in X direction
+	/// </summary>
 	private int collisionDivisionsX = 3;
+	/// <summary>
+	/// Amount of divisions in collider to detect in Y direction	
+	/// </summary>
 	private int collisionDivisionsY =10;
 	
 	private float skin = .005f;
 	
 	[HideInInspector]
+	/// <summary>
+	/// Boolean to check if object is in contact with object from bottom
+	/// </summary>
 	public bool grounded;
 	[HideInInspector]
+	/// <summary>
+	/// Boolean to check player is no longer moving
+	/// </summary>
 	public bool movementStopped;
 	
 	Ray ray;
 	RaycastHit hit;
-	
-	void Start() {
+
+	/// <summary>
+	/// Initialization, gets collider of player and its values(size and center)
+	/// </summary>
+	public void Start() {
 		collider = GetComponent<BoxCollider>();
 		colliderScale = transform.localScale.x;
 		
@@ -38,7 +74,11 @@ public class PlayerPhysics : MonoBehaviour {
 		originalCentre = collider.center;
 		SetCollider(originalSize,originalCentre);
 	}
-	
+
+	/// <summary>
+	/// Move the specified moveAmount.
+	/// </summary>
+	/// <param name="moveAmount">Move amount.</param>
 	public void Move(Vector2 moveAmount) {
 		
 		float deltaY = moveAmount.y;
