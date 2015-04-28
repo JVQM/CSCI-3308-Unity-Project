@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['incrementtowards',['IncrementTowards',['../classGameCamera.html#adb57e107c5ac3c860c1d31589453c9a4',1,'GameCamera']]],
-  ['isdead',['isDead',['../classHealth.html#a3bb9917bfd54064704c2a282505a5dbb',1,'Health']]]
+  ['awake',['Awake',['../classCurrentHealth.html#aec29b2dafa5e38f31d15b948c4c10e4b',1,'CurrentHealth.Awake()'],['../classScoreManager.html#a68b661eece0b6102ad825d88990a83f8',1,'ScoreManager.Awake()']]]
 ];

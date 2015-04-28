@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['update',['Update',['../classBombScript.html#ac503477a92904905bd3940a5f88dae7b',1,'BombScript.Update()'],['../classBullets.html#a5f8f1e6e26692c4309d245bfc82f262d',1,'Bullets.Update()'],['../classGameCamera.html#aa6ef15e6deb0f8921cdb93c9ad719ca0',1,'GameCamera.Update()'],['../classGameController.html#a5a89277529cadb49af7d55eba3bbf056',1,'GameController.Update()'],['../classMedPack.html#ab62bb43788d62cadf3177f763ee14820',1,'MedPack.Update()'],['../classPlayerController.html#ae8bc83dffb99867a04be016473ed2c43',1,'PlayerController.Update()'],['../classTestColliderandHealth.html#acbf64a959cd451b47dcc7907999f8b50',1,'TestColliderandHealth.Update()']]]
+  ['ontriggerenter',['OnTriggerEnter',['../classBombScript.html#ad2919ec2099dd9b523c9f19e8331cb89',1,'BombScript.OnTriggerEnter()'],['../classBullets.html#a15349b695ed15b96eda82606d5da773e',1,'Bullets.OnTriggerEnter()'],['../classCoinScript.html#a76037ba9ee74b1fce9d15015c6d1072a',1,'CoinScript.OnTriggerEnter()'],['../classCrateScript.html#a342f9ebf5e1aa11849dbd97b2694cf72',1,'CrateScript.OnTriggerEnter()'],['../classMedPack.html#ae69e19d12dce004d6974e23aed815e7f',1,'MedPack.OnTriggerEnter()']]]
 ];

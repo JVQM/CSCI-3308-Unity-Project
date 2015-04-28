@@ -81,6 +81,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classCoinScript-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">CoinScript Class Reference</div>  </div>
@@ -94,13 +96,134 @@ Inheritance diagram for CoinScript:</div>
   <map id="CoinScript_map" name="CoinScript_map">
 </map>
  </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad9cdff800db09d06178e34430977421d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoinScript.html#ad9cdff800db09d06178e34430977421d">Start</a> ()</td></tr>
+<tr class="memdesc:ad9cdff800db09d06178e34430977421d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start this instance. Grabs audio source and adds to component.  <a href="#ad9cdff800db09d06178e34430977421d">More...</a><br/></td></tr>
+<tr class="separator:ad9cdff800db09d06178e34430977421d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1288ee0f5b05f7e039cc681d91231fcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoinScript.html#a1288ee0f5b05f7e039cc681d91231fcc">Update</a> ()</td></tr>
+<tr class="memdesc:a1288ee0f5b05f7e039cc681d91231fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates per frame. Destroys object after 10 seconds  <a href="#a1288ee0f5b05f7e039cc681d91231fcc">More...</a><br/></td></tr>
+<tr class="separator:a1288ee0f5b05f7e039cc681d91231fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76037ba9ee74b1fce9d15015c6d1072a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoinScript.html#a76037ba9ee74b1fce9d15015c6d1072a">OnTriggerEnter</a> (Collider col)</td></tr>
+<tr class="memdesc:a76037ba9ee74b1fce9d15015c6d1072a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers object destruction on collision  <a href="#a76037ba9ee74b1fce9d15015c6d1072a">More...</a><br/></td></tr>
+<tr class="separator:a76037ba9ee74b1fce9d15015c6d1072a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aacded91c375e9ac952edf1a1091ed3a1"><td class="memItemLeft" align="right" valign="top">AudioSource&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCoinScript.html#aacded91c375e9ac952edf1a1091ed3a1">coinSFX</a></td></tr>
+<tr class="memdesc:aacded91c375e9ac952edf1a1091ed3a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The coin sound effect. Plays on pickup.  <a href="#aacded91c375e9ac952edf1a1091ed3a1">More...</a><br/></td></tr>
+<tr class="separator:aacded91c375e9ac952edf1a1091ed3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1672491e696a0a39399fd2fe655b0f38"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1672491e696a0a39399fd2fe655b0f38"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>CoinValue</b> = 10</td></tr>
+<tr class="separator:a1672491e696a0a39399fd2fe655b0f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a76037ba9ee74b1fce9d15015c6d1072a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoinScript.OnTriggerEnter </td>
+          <td>(</td>
+          <td class="paramtype">Collider&#160;</td>
+          <td class="paramname"><em>col</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Triggers object destruction on collision </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">col</td><td>Col collision parameter to detect collisions</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad9cdff800db09d06178e34430977421d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoinScript.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start this instance. Grabs audio source and adds to component. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1288ee0f5b05f7e039cc681d91231fcc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CoinScript.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates per frame. Destroys object after 10 seconds </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="aacded91c375e9ac952edf1a1091ed3a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AudioSource CoinScript.coinSFX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The coin sound effect. Plays on pickup. </p>
+<p>summary&gt; Variable holding coin value for increasing score. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>CoinScript.cs</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 23 2015 01:56:51 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Apr 27 2015 20:04:10 for My Project by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

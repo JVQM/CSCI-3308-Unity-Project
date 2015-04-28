@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['move',['Move',['../classPlayerPhysics.html#adb50fbe957788574388514fce1dc5d89',1,'PlayerPhysics']]]
+  ['changetoscene',['ChangeToScene',['../classChangeScene.html#a1cc232fcd1d513c9711d5432534ca74a',1,'ChangeScene']]]
 ];

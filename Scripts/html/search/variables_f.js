@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['score',['score',['../classScoreManager.html#ab0036417bd3468315aec1def60f46221',1,'ScoreManager']]],
+  ['scorevalue',['scoreValue',['../classBombScript.html#ada41bfc1e2a7975b73dc796855d22199',1,'BombScript']]],
+  ['shot',['Shot',['../classPlayerController.html#aabcb743694c264c111b2aa92c6f04dca',1,'PlayerController']]],
   ['shotsd',['ShotSD',['../classPlayerController.html#aa985596607cf22753896610372c00fa7',1,'PlayerController']]],
   ['spawnvalues',['spawnValues',['../classGameController.html#a5e4f56c23896d4b528da579f93335896',1,'GameController.spawnValues()'],['../classSpawnFloor.html#ade77f9840ef3b18a4f2fb12ef8f16b61',1,'SpawnFloor.spawnValues()']]],
   ['spawnwait',['spawnWait',['../classGameController.html#a27c91a14de3982813ad3d8245d0134d7',1,'GameController.spawnWait()'],['../classSpawnFloor.html#abbc700e5d578b3317400424919914a71',1,'SpawnFloor.spawnWait()']]],

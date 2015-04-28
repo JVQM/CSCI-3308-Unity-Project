@@ -7,20 +7,99 @@ Inheritance diagram for Crate\-Script\-:\begin{figure}[H]
 \includegraphics[height=2.000000cm]{classCrateScript}
 \end{center}
 \end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classCrateScript_a41369f02a813b8cd1a159729eaf32345}{Start} ()
+\begin{DoxyCompactList}\small\item\em Sets attached animations and audio sources. \end{DoxyCompactList}\item 
+void \hyperlink{classCrateScript_a4637e9037a22692af83dd1e5230b04fd}{Update} ()
+\begin{DoxyCompactList}\small\item\em Updates every frame. Moves object, checks is\-Dead. If true, destroys object, plays animation. \end{DoxyCompactList}\item 
+void \hyperlink{classCrateScript_a342f9ebf5e1aa11849dbd97b2694cf72}{On\-Trigger\-Enter} (Collider col)
+\begin{DoxyCompactList}\small\item\em Raises the trigger enter event. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
 \item 
+Animator \hyperlink{classCrateScript_a7bcc293c9a36061d47c14c675126329f}{Crate\-Object}
+\begin{DoxyCompactList}\small\item\em The crate object animation. \end{DoxyCompactList}\item 
+Audio\-Source \hyperlink{classCrateScript_aa70bfd5d4f2f1479df22928a5c085f56}{Explosion\-S\-F\-X}
+\begin{DoxyCompactList}\small\item\em The explosion sound effect. \end{DoxyCompactList}\item 
 float \hyperlink{classCrateScript_a60ff5faecd26f04a37351e1de67019b5}{Enemy\-Speed} = 0.\-1f
-\begin{DoxyCompactList}\small\item\em Speed of Game\-Object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Speed of Game\-Object. \end{DoxyCompactList}\item 
+int \hyperlink{classCrateScript_adf3235471fd23e0e58b4923d553342fb}{Box\-Score} = 10
+\begin{DoxyCompactList}\small\item\em Points for destroying the nearly indestructable box \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classCrateScript_a342f9ebf5e1aa11849dbd97b2694cf72}{\index{Crate\-Script@{Crate\-Script}!On\-Trigger\-Enter@{On\-Trigger\-Enter}}
+\index{On\-Trigger\-Enter@{On\-Trigger\-Enter}!CrateScript@{Crate\-Script}}
+\subsubsection[{On\-Trigger\-Enter}]{\setlength{\rightskip}{0pt plus 5cm}void Crate\-Script.\-On\-Trigger\-Enter (
+\begin{DoxyParamCaption}
+\item[{Collider}]{col}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCrateScript_a342f9ebf5e1aa11849dbd97b2694cf72}
+
+
+Raises the trigger enter event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em col} & Col collision parameter to detect collisions.\\
+\hline
+{\em return} & Tag \char`\"{}\-Player\char`\"{} collision causes \hyperlink{classHealth}{Health} call, Dmg received \& object destruct\\
+\hline
+\end{DoxyParams}
+\hypertarget{classCrateScript_a41369f02a813b8cd1a159729eaf32345}{\index{Crate\-Script@{Crate\-Script}!Start@{Start}}
+\index{Start@{Start}!CrateScript@{Crate\-Script}}
+\subsubsection[{Start}]{\setlength{\rightskip}{0pt plus 5cm}void Crate\-Script.\-Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCrateScript_a41369f02a813b8cd1a159729eaf32345}
+
+
+Sets attached animations and audio sources. 
+
+\hypertarget{classCrateScript_a4637e9037a22692af83dd1e5230b04fd}{\index{Crate\-Script@{Crate\-Script}!Update@{Update}}
+\index{Update@{Update}!CrateScript@{Crate\-Script}}
+\subsubsection[{Update}]{\setlength{\rightskip}{0pt plus 5cm}void Crate\-Script.\-Update (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCrateScript_a4637e9037a22692af83dd1e5230b04fd}
+
+
+Updates every frame. Moves object, checks is\-Dead. If true, destroys object, plays animation. 
+
 
 
 \subsection{Member Data Documentation}
+\hypertarget{classCrateScript_adf3235471fd23e0e58b4923d553342fb}{\index{Crate\-Script@{Crate\-Script}!Box\-Score@{Box\-Score}}
+\index{Box\-Score@{Box\-Score}!CrateScript@{Crate\-Script}}
+\subsubsection[{Box\-Score}]{\setlength{\rightskip}{0pt plus 5cm}int Crate\-Script.\-Box\-Score = 10}}\label{classCrateScript_adf3235471fd23e0e58b4923d553342fb}
+
+
+Points for destroying the nearly indestructable box 
+
+\hypertarget{classCrateScript_a7bcc293c9a36061d47c14c675126329f}{\index{Crate\-Script@{Crate\-Script}!Crate\-Object@{Crate\-Object}}
+\index{Crate\-Object@{Crate\-Object}!CrateScript@{Crate\-Script}}
+\subsubsection[{Crate\-Object}]{\setlength{\rightskip}{0pt plus 5cm}Animator Crate\-Script.\-Crate\-Object}}\label{classCrateScript_a7bcc293c9a36061d47c14c675126329f}
+
+
+The crate object animation. 
+
 \hypertarget{classCrateScript_a60ff5faecd26f04a37351e1de67019b5}{\index{Crate\-Script@{Crate\-Script}!Enemy\-Speed@{Enemy\-Speed}}
 \index{Enemy\-Speed@{Enemy\-Speed}!CrateScript@{Crate\-Script}}
 \subsubsection[{Enemy\-Speed}]{\setlength{\rightskip}{0pt plus 5cm}float Crate\-Script.\-Enemy\-Speed = 0.\-1f}}\label{classCrateScript_a60ff5faecd26f04a37351e1de67019b5}
 
 
 Speed of Game\-Object. 
+
+\hypertarget{classCrateScript_aa70bfd5d4f2f1479df22928a5c085f56}{\index{Crate\-Script@{Crate\-Script}!Explosion\-S\-F\-X@{Explosion\-S\-F\-X}}
+\index{Explosion\-S\-F\-X@{Explosion\-S\-F\-X}!CrateScript@{Crate\-Script}}
+\subsubsection[{Explosion\-S\-F\-X}]{\setlength{\rightskip}{0pt plus 5cm}Audio\-Source Crate\-Script.\-Explosion\-S\-F\-X}}\label{classCrateScript_aa70bfd5d4f2f1479df22928a5c085f56}
+
+
+The explosion sound effect. 
 
 
 

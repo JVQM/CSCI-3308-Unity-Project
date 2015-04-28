@@ -1,9 +1,12 @@
 \begin{theindex}
 
   \item {acceleration}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
   \item {amount\discretionary {-}{}{}To\discretionary {-}{}{}Move}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
+  \item {Awake}
+    \subitem {Current\discretionary {-}{}{}Health}, \hyperpage{11}
+    \subitem {Score\discretionary {-}{}{}Manager}, \hyperpage{24}
 
   \indexspace
 
@@ -16,8 +19,11 @@
 		\hyperpage{6}
     \subitem {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}, 
 		\hyperpage{5}
+    \subitem {score\discretionary {-}{}{}Value}, \hyperpage{6}
     \subitem {Start}, \hyperpage{6}
     \subitem {Update}, \hyperpage{6}
+  \item {Box\discretionary {-}{}{}Score}
+    \subitem {Crate\discretionary {-}{}{}Script}, \hyperpage{10}
   \item {Bullets}, \hyperpage{6}
     \subitem {Bulletspeed}, \hyperpage{7}
     \subitem {Dmg}, \hyperpage{7}
@@ -29,26 +35,56 @@
 
   \indexspace
 
+  \item {c\discretionary {-}{}{}Health}
+    \subitem {Current\discretionary {-}{}{}Health}, \hyperpage{11}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
   \item {cam}
-    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{13}
-  \item {Coin\discretionary {-}{}{}Script}, \hyperpage{7}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{16}
+  \item {Change\discretionary {-}{}{}Scene}, \hyperpage{7}
+    \subitem {Change\discretionary {-}{}{}To\discretionary {-}{}{}Scene}, 
+		\hyperpage{8}
+  \item {Change\discretionary {-}{}{}To\discretionary {-}{}{}Scene}
+    \subitem {Change\discretionary {-}{}{}Scene}, \hyperpage{8}
+  \item {coin\discretionary {-}{}{}S\discretionary {-}{}{}F\discretionary {-}{}{}X}
+    \subitem {Coin\discretionary {-}{}{}Script}, \hyperpage{9}
+  \item {Coin\discretionary {-}{}{}Script}, \hyperpage{8}
+    \subitem {coin\discretionary {-}{}{}S\discretionary {-}{}{}F\discretionary {-}{}{}X}, 
+		\hyperpage{9}
+    \subitem {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}, 
+		\hyperpage{8}
+    \subitem {Start}, \hyperpage{9}
+    \subitem {Update}, \hyperpage{9}
   \item {collision\discretionary {-}{}{}Mask}
-    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{20}
-  \item {Crate\discretionary {-}{}{}Script}, \hyperpage{8}
-    \subitem {Enemy\discretionary {-}{}{}Speed}, \hyperpage{8}
+    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{23}
+  \item {Crate\discretionary {-}{}{}Object}
+    \subitem {Crate\discretionary {-}{}{}Script}, \hyperpage{10}
+  \item {Crate\discretionary {-}{}{}Script}, \hyperpage{9}
+    \subitem {Box\discretionary {-}{}{}Score}, \hyperpage{10}
+    \subitem {Crate\discretionary {-}{}{}Object}, \hyperpage{10}
+    \subitem {Enemy\discretionary {-}{}{}Speed}, \hyperpage{10}
+    \subitem {Explosion\discretionary {-}{}{}S\discretionary {-}{}{}F\discretionary {-}{}{}X}, 
+		\hyperpage{10}
+    \subitem {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}, 
+		\hyperpage{10}
+    \subitem {Start}, \hyperpage{10}
+    \subitem {Update}, \hyperpage{10}
+  \item {Current\discretionary {-}{}{}Health}, \hyperpage{10}
+    \subitem {Awake}, \hyperpage{11}
+    \subitem {c\discretionary {-}{}{}Health}, \hyperpage{11}
+    \subitem {Update}, \hyperpage{11}
   \item {current\discretionary {-}{}{}Health}
-    \subitem {Health}, \hyperpage{14}
+    \subitem {Health}, \hyperpage{17}
   \item {current\discretionary {-}{}{}Speed}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
 
   \indexspace
 
   \item {Death\discretionary {-}{}{}S\discretionary {-}{}{}D}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
   \item {Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}, 
-		\hyperpage{8}
-    \subitem {lifetime}, \hyperpage{9}
-    \subitem {Start}, \hyperpage{8}
+		\hyperpage{11}
+    \subitem {lifetime}, \hyperpage{12}
+    \subitem {Start}, \hyperpage{12}
   \item {Dmg}
     \subitem {Bullets}, \hyperpage{7}
 
@@ -56,225 +92,273 @@
 
   \item {Enemy\discretionary {-}{}{}Speed}
     \subitem {Bomb\discretionary {-}{}{}Script}, \hyperpage{6}
-    \subitem {Crate\discretionary {-}{}{}Script}, \hyperpage{8}
+    \subitem {Crate\discretionary {-}{}{}Script}, \hyperpage{10}
+  \item {Exit\discretionary {-}{}{}Game\discretionary {-}{}{}On\discretionary {-}{}{}Click}
+    \subitem {Quit\discretionary {-}{}{}Game}, \hyperpage{23}
   \item {Explosion\discretionary {-}{}{}S\discretionary {-}{}{}D}
     \subitem {Bomb\discretionary {-}{}{}Script}, \hyperpage{6}
+  \item {Explosion\discretionary {-}{}{}S\discretionary {-}{}{}F\discretionary {-}{}{}X}
+    \subitem {Crate\discretionary {-}{}{}Script}, \hyperpage{10}
 
   \indexspace
 
   \item {floor}
-    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{21}
+    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{25}
 
   \indexspace
 
-  \item {Game\discretionary {-}{}{}Camera}, \hyperpage{9}
-    \subitem {Increment\discretionary {-}{}{}Towards}, \hyperpage{9}
-    \subitem {Set\discretionary {-}{}{}Target}, \hyperpage{10}
-    \subitem {target}, \hyperpage{10}
-    \subitem {track\discretionary {-}{}{}Speed}, \hyperpage{10}
-    \subitem {Update}, \hyperpage{10}
-  \item {Game\discretionary {-}{}{}Controller}, \hyperpage{10}
-    \subitem {hazard}, \hyperpage{11}
-    \subitem {hazard\discretionary {-}{}{}Count}, \hyperpage{11}
-    \subitem {Object1}, \hyperpage{11}
-    \subitem {Object2}, \hyperpage{11}
-    \subitem {Object3}, \hyperpage{11}
-    \subitem {spawn\discretionary {-}{}{}Values}, \hyperpage{12}
-    \subitem {spawn\discretionary {-}{}{}Wait}, \hyperpage{12}
-    \subitem {Start}, \hyperpage{11}
-    \subitem {start\discretionary {-}{}{}Wait}, \hyperpage{12}
-    \subitem {Update}, \hyperpage{11}
-    \subitem {wave\discretionary {-}{}{}Wait}, \hyperpage{12}
-  \item {Game\discretionary {-}{}{}Manager}, \hyperpage{12}
-    \subitem {cam}, \hyperpage{13}
-    \subitem {player}, \hyperpage{13}
-    \subitem {Spawn\discretionary {-}{}{}Player}, \hyperpage{13}
-    \subitem {Start}, \hyperpage{13}
+  \item {Game\discretionary {-}{}{}Camera}, \hyperpage{12}
+    \subitem {Increment\discretionary {-}{}{}Towards}, \hyperpage{13}
+    \subitem {Set\discretionary {-}{}{}Target}, \hyperpage{13}
+    \subitem {target}, \hyperpage{13}
+    \subitem {track\discretionary {-}{}{}Speed}, \hyperpage{13}
+    \subitem {Update}, \hyperpage{13}
+  \item {Game\discretionary {-}{}{}Controller}, \hyperpage{13}
+    \subitem {hazard}, \hyperpage{14}
+    \subitem {hazard\discretionary {-}{}{}Count}, \hyperpage{14}
+    \subitem {Object1}, \hyperpage{15}
+    \subitem {Object2}, \hyperpage{15}
+    \subitem {Object3}, \hyperpage{15}
+    \subitem {Object4}, \hyperpage{15}
+    \subitem {Object5}, \hyperpage{15}
+    \subitem {Object6}, \hyperpage{15}
+    \subitem {spawn\discretionary {-}{}{}Values}, \hyperpage{15}
+    \subitem {spawn\discretionary {-}{}{}Wait}, \hyperpage{15}
+    \subitem {Start}, \hyperpage{14}
+    \subitem {start\discretionary {-}{}{}Wait}, \hyperpage{15}
+    \subitem {Update}, \hyperpage{14}
+    \subitem {wave\discretionary {-}{}{}Wait}, \hyperpage{15}
+  \item {Game\discretionary {-}{}{}Manager}, \hyperpage{16}
+    \subitem {cam}, \hyperpage{16}
+    \subitem {player}, \hyperpage{16}
+    \subitem {Spawn\discretionary {-}{}{}Player}, \hyperpage{16}
+    \subitem {Start}, \hyperpage{16}
   \item {gravity}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
   \item {grounded}
-    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{20}
+    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{23}
 
   \indexspace
 
   \item {hazard}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{11}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{14}
   \item {hazard\discretionary {-}{}{}Count}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{11}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{14}
   \item {Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T}
-    \subitem {Med\discretionary {-}{}{}Pack}, \hyperpage{15}
-  \item {Health}, \hyperpage{13}
-    \subitem {current\discretionary {-}{}{}Health}, \hyperpage{14}
-    \subitem {is\discretionary {-}{}{}Dead}, \hyperpage{14}
-    \subitem {Receive\discretionary {-}{}{}Dmg}, \hyperpage{14}
+    \subitem {Med\discretionary {-}{}{}Pack}, \hyperpage{18}
+  \item {Health}, \hyperpage{17}
+    \subitem {current\discretionary {-}{}{}Health}, \hyperpage{17}
+    \subitem {is\discretionary {-}{}{}Dead}, \hyperpage{17}
+    \subitem {Receive\discretionary {-}{}{}Dmg}, \hyperpage{17}
 
   \indexspace
 
   \item {Increment\discretionary {-}{}{}Towards}
-    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{9}
+    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{13}
   \item {is\discretionary {-}{}{}Dead}
-    \subitem {Health}, \hyperpage{14}
+    \subitem {Health}, \hyperpage{17}
 
   \indexspace
 
   \item {jump\discretionary {-}{}{}Height}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
   \item {Jump\discretionary {-}{}{}S\discretionary {-}{}{}D}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
 
   \indexspace
 
   \item {lifetime}
     \subitem {Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}, 
-		\hyperpage{9}
+		\hyperpage{12}
 
   \indexspace
 
-  \item {Med\discretionary {-}{}{}Pack}, \hyperpage{14}
+  \item {Med\discretionary {-}{}{}Pack}, \hyperpage{18}
     \subitem {Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T}, 
-		\hyperpage{15}
-    \subitem {Med\discretionary {-}{}{}Speed}, \hyperpage{15}
+		\hyperpage{18}
+    \subitem {Med\discretionary {-}{}{}Speed}, \hyperpage{18}
     \subitem {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}, 
-		\hyperpage{15}
-    \subitem {Update}, \hyperpage{15}
+		\hyperpage{18}
+    \subitem {Update}, \hyperpage{18}
   \item {Med\discretionary {-}{}{}Speed}
-    \subitem {Med\discretionary {-}{}{}Pack}, \hyperpage{15}
+    \subitem {Med\discretionary {-}{}{}Pack}, \hyperpage{18}
   \item {Move}
-    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{19}
+    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{23}
   \item {movement\discretionary {-}{}{}Stopped}
-    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{20}
+    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{23}
 
   \indexspace
 
   \item {New\discretionary {-}{}{}Health}
     \subitem {Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}, 
-		\hyperpage{22}
+		\hyperpage{26}
 
   \indexspace
 
   \item {Object1}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{11}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
   \item {Object2}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{11}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
   \item {Object3}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{11}
-  \item {Object\discretionary {-}{}{}Behavior2}, \hyperpage{15}
-    \subitem {speed}, \hyperpage{15}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
+  \item {Object4}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
+  \item {Object5}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
+  \item {Object6}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
+  \item {Object\discretionary {-}{}{}Behavior2}, \hyperpage{19}
+    \subitem {speed}, \hyperpage{19}
+    \subitem {Update}, \hyperpage{19}
   \item {On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}
     \subitem {Bomb\discretionary {-}{}{}Script}, \hyperpage{5}
     \subitem {Bullets}, \hyperpage{7}
-    \subitem {Med\discretionary {-}{}{}Pack}, \hyperpage{15}
+    \subitem {Coin\discretionary {-}{}{}Script}, \hyperpage{8}
+    \subitem {Crate\discretionary {-}{}{}Script}, \hyperpage{10}
+    \subitem {Med\discretionary {-}{}{}Pack}, \hyperpage{18}
 
   \indexspace
 
   \item {Player}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
   \item {player}
-    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{13}
-  \item {Player\discretionary {-}{}{}Controller}, \hyperpage{16}
-    \subitem {acceleration}, \hyperpage{17}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{16}
+  \item {Player\discretionary {-}{}{}Controller}, \hyperpage{19}
+    \subitem {acceleration}, \hyperpage{21}
     \subitem {amount\discretionary {-}{}{}To\discretionary {-}{}{}Move}, 
-		\hyperpage{17}
-    \subitem {current\discretionary {-}{}{}Speed}, \hyperpage{17}
+		\hyperpage{21}
+    \subitem {c\discretionary {-}{}{}Health}, \hyperpage{21}
+    \subitem {current\discretionary {-}{}{}Speed}, \hyperpage{21}
     \subitem {Death\discretionary {-}{}{}S\discretionary {-}{}{}D}, 
-		\hyperpage{17}
-    \subitem {gravity}, \hyperpage{17}
-    \subitem {jump\discretionary {-}{}{}Height}, \hyperpage{17}
+		\hyperpage{21}
+    \subitem {gravity}, \hyperpage{21}
+    \subitem {jump\discretionary {-}{}{}Height}, \hyperpage{21}
     \subitem {Jump\discretionary {-}{}{}S\discretionary {-}{}{}D}, 
-		\hyperpage{17}
-    \subitem {Player}, \hyperpage{17}
-    \subitem {player\discretionary {-}{}{}Physics}, \hyperpage{17}
+		\hyperpage{21}
+    \subitem {Player}, \hyperpage{21}
+    \subitem {player\discretionary {-}{}{}Physics}, \hyperpage{21}
+    \subitem {Restart\discretionary {-}{}{}Level}, \hyperpage{20}
     \subitem {Roll\discretionary {-}{}{}S\discretionary {-}{}{}D}, 
-		\hyperpage{17}
+		\hyperpage{21}
+    \subitem {Shot}, \hyperpage{22}
     \subitem {Shot\discretionary {-}{}{}S\discretionary {-}{}{}D}, 
-		\hyperpage{18}
-    \subitem {speed}, \hyperpage{18}
-    \subitem {Start}, \hyperpage{17}
-    \subitem {target\discretionary {-}{}{}Speed}, \hyperpage{18}
-    \subitem {Update}, \hyperpage{17}
-  \item {Player\discretionary {-}{}{}Physics}, \hyperpage{18}
-    \subitem {collision\discretionary {-}{}{}Mask}, \hyperpage{20}
-    \subitem {grounded}, \hyperpage{20}
-    \subitem {Move}, \hyperpage{19}
-    \subitem {movement\discretionary {-}{}{}Stopped}, \hyperpage{20}
+		\hyperpage{22}
+    \subitem {speed}, \hyperpage{22}
     \subitem {Start}, \hyperpage{20}
+    \subitem {target\discretionary {-}{}{}Speed}, \hyperpage{22}
+    \subitem {Update}, \hyperpage{21}
+  \item {Player\discretionary {-}{}{}Physics}, \hyperpage{22}
+    \subitem {collision\discretionary {-}{}{}Mask}, \hyperpage{23}
+    \subitem {grounded}, \hyperpage{23}
+    \subitem {Move}, \hyperpage{23}
+    \subitem {movement\discretionary {-}{}{}Stopped}, \hyperpage{23}
+    \subitem {Start}, \hyperpage{23}
   \item {player\discretionary {-}{}{}Physics}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
   \item {Previous\discretionary {-}{}{}Health}
     \subitem {Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}, 
-		\hyperpage{22}
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {Quit\discretionary {-}{}{}Game}, \hyperpage{23}
+    \subitem {Exit\discretionary {-}{}{}Game\discretionary {-}{}{}On\discretionary {-}{}{}Click}, 
+		\hyperpage{23}
 
   \indexspace
 
   \item {Receive\discretionary {-}{}{}Dmg}
-    \subitem {Health}, \hyperpage{14}
+    \subitem {Health}, \hyperpage{17}
+  \item {Restart\discretionary {-}{}{}Level}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{20}
   \item {Roll\discretionary {-}{}{}S\discretionary {-}{}{}D}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
 
   \indexspace
 
+  \item {score}
+    \subitem {Score\discretionary {-}{}{}Manager}, \hyperpage{24}
+  \item {Score\discretionary {-}{}{}Manager}, \hyperpage{24}
+    \subitem {Awake}, \hyperpage{24}
+    \subitem {score}, \hyperpage{24}
+    \subitem {text}, \hyperpage{24}
+    \subitem {Update}, \hyperpage{24}
+  \item {score\discretionary {-}{}{}Value}
+    \subitem {Bomb\discretionary {-}{}{}Script}, \hyperpage{6}
   \item {Set\discretionary {-}{}{}Target}
-    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{10}
+    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{13}
+  \item {Shot}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{22}
   \item {Shot\discretionary {-}{}{}S\discretionary {-}{}{}D}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{18}
-  \item {Spawn\discretionary {-}{}{}Floor}, \hyperpage{20}
-    \subitem {floor}, \hyperpage{21}
-    \subitem {spawn\discretionary {-}{}{}Values}, \hyperpage{21}
-    \subitem {spawn\discretionary {-}{}{}Wait}, \hyperpage{21}
-    \subitem {start\discretionary {-}{}{}Wait}, \hyperpage{21}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{22}
+  \item {Spawn\discretionary {-}{}{}Floor}, \hyperpage{25}
+    \subitem {floor}, \hyperpage{25}
+    \subitem {spawn\discretionary {-}{}{}Values}, \hyperpage{25}
+    \subitem {spawn\discretionary {-}{}{}Wait}, \hyperpage{25}
+    \subitem {Start}, \hyperpage{25}
+    \subitem {start\discretionary {-}{}{}Wait}, \hyperpage{26}
   \item {Spawn\discretionary {-}{}{}Player}
-    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{13}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{16}
   \item {spawn\discretionary {-}{}{}Values}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{12}
-    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{21}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
+    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{25}
   \item {spawn\discretionary {-}{}{}Wait}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{12}
-    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{21}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
+    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{25}
   \item {speed}
-    \subitem {Object\discretionary {-}{}{}Behavior2}, \hyperpage{15}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{18}
-  \item {Spike\discretionary {-}{}{}Obstacle}, \hyperpage{21}
+    \subitem {Object\discretionary {-}{}{}Behavior2}, \hyperpage{19}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{22}
   \item {Start}
     \subitem {Bomb\discretionary {-}{}{}Script}, \hyperpage{6}
+    \subitem {Coin\discretionary {-}{}{}Script}, \hyperpage{9}
+    \subitem {Crate\discretionary {-}{}{}Script}, \hyperpage{10}
     \subitem {Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time}, 
-		\hyperpage{8}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{11}
-    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{13}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
-    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{20}
+		\hyperpage{12}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{14}
+    \subitem {Game\discretionary {-}{}{}Manager}, \hyperpage{16}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{20}
+    \subitem {Player\discretionary {-}{}{}Physics}, \hyperpage{23}
+    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{25}
   \item {start\discretionary {-}{}{}Wait}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{12}
-    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{21}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
+    \subitem {Spawn\discretionary {-}{}{}Floor}, \hyperpage{26}
 
   \indexspace
 
   \item {target}
-    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{10}
+    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{13}
   \item {target\discretionary {-}{}{}Speed}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{18}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{22}
   \item {Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}, 
-		\hyperpage{21}
-    \subitem {New\discretionary {-}{}{}Health}, \hyperpage{22}
-    \subitem {Previous\discretionary {-}{}{}Health}, \hyperpage{22}
-    \subitem {Update}, \hyperpage{22}
+		\hyperpage{26}
+    \subitem {New\discretionary {-}{}{}Health}, \hyperpage{26}
+    \subitem {Previous\discretionary {-}{}{}Health}, \hyperpage{26}
+    \subitem {Update}, \hyperpage{26}
+  \item {text}
+    \subitem {Score\discretionary {-}{}{}Manager}, \hyperpage{24}
   \item {track\discretionary {-}{}{}Speed}
-    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{10}
+    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{13}
 
   \indexspace
 
   \item {Update}
     \subitem {Bomb\discretionary {-}{}{}Script}, \hyperpage{6}
     \subitem {Bullets}, \hyperpage{7}
-    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{10}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{11}
-    \subitem {Med\discretionary {-}{}{}Pack}, \hyperpage{15}
-    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{17}
+    \subitem {Coin\discretionary {-}{}{}Script}, \hyperpage{9}
+    \subitem {Crate\discretionary {-}{}{}Script}, \hyperpage{10}
+    \subitem {Current\discretionary {-}{}{}Health}, \hyperpage{11}
+    \subitem {Game\discretionary {-}{}{}Camera}, \hyperpage{13}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{14}
+    \subitem {Med\discretionary {-}{}{}Pack}, \hyperpage{18}
+    \subitem {Object\discretionary {-}{}{}Behavior2}, \hyperpage{19}
+    \subitem {Player\discretionary {-}{}{}Controller}, \hyperpage{21}
+    \subitem {Score\discretionary {-}{}{}Manager}, \hyperpage{24}
     \subitem {Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health}, 
-		\hyperpage{22}
+		\hyperpage{26}
 
   \indexspace
 
   \item {wave\discretionary {-}{}{}Wait}
-    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{12}
+    \subitem {Game\discretionary {-}{}{}Controller}, \hyperpage{15}
 
 \end{theindex}

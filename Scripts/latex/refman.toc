@@ -12,6 +12,7 @@
 \contentsline {subsubsection}{\numberline {3.1.2.1}Bomb\discretionary {-}{}{}Enemy}{6}{subsubsection.3.1.2.1}
 \contentsline {subsubsection}{\numberline {3.1.2.2}Enemy\discretionary {-}{}{}Speed}{6}{subsubsection.3.1.2.2}
 \contentsline {subsubsection}{\numberline {3.1.2.3}Explosion\discretionary {-}{}{}S\discretionary {-}{}{}D}{6}{subsubsection.3.1.2.3}
+\contentsline {subsubsection}{\numberline {3.1.2.4}score\discretionary {-}{}{}Value}{6}{subsubsection.3.1.2.4}
 \contentsline {section}{\numberline {3.2}Bullets Class Reference}{6}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Member Function Documentation}{7}{subsection.3.2.1}
 \contentsline {subsubsection}{\numberline {3.2.1.1}On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}{7}{subsubsection.3.2.1.1}
@@ -19,97 +20,138 @@
 \contentsline {subsection}{\numberline {3.2.2}Member Data Documentation}{7}{subsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.1}Bulletspeed}{7}{subsubsection.3.2.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2.2}Dmg}{7}{subsubsection.3.2.2.2}
-\contentsline {section}{\numberline {3.3}Coin\discretionary {-}{}{}Script Class Reference}{7}{section.3.3}
-\contentsline {section}{\numberline {3.4}Crate\discretionary {-}{}{}Script Class Reference}{8}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Member Data Documentation}{8}{subsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.1.1}Enemy\discretionary {-}{}{}Speed}{8}{subsubsection.3.4.1.1}
-\contentsline {section}{\numberline {3.5}Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time Class Reference}{8}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Member Function Documentation}{8}{subsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.1.1}Start}{8}{subsubsection.3.5.1.1}
-\contentsline {subsection}{\numberline {3.5.2}Member Data Documentation}{9}{subsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.2.1}lifetime}{9}{subsubsection.3.5.2.1}
-\contentsline {section}{\numberline {3.6}Game\discretionary {-}{}{}Camera Class Reference}{9}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Member Function Documentation}{9}{subsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.1.1}Increment\discretionary {-}{}{}Towards}{9}{subsubsection.3.6.1.1}
-\contentsline {subsubsection}{\numberline {3.6.1.2}Set\discretionary {-}{}{}Target}{10}{subsubsection.3.6.1.2}
-\contentsline {subsubsection}{\numberline {3.6.1.3}Update}{10}{subsubsection.3.6.1.3}
-\contentsline {subsection}{\numberline {3.6.2}Member Data Documentation}{10}{subsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.2.1}target}{10}{subsubsection.3.6.2.1}
-\contentsline {subsubsection}{\numberline {3.6.2.2}track\discretionary {-}{}{}Speed}{10}{subsubsection.3.6.2.2}
-\contentsline {section}{\numberline {3.7}Game\discretionary {-}{}{}Controller Class Reference}{10}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Member Function Documentation}{11}{subsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.1.1}Start}{11}{subsubsection.3.7.1.1}
-\contentsline {subsubsection}{\numberline {3.7.1.2}Update}{11}{subsubsection.3.7.1.2}
-\contentsline {subsection}{\numberline {3.7.2}Member Data Documentation}{11}{subsection.3.7.2}
-\contentsline {subsubsection}{\numberline {3.7.2.1}hazard}{11}{subsubsection.3.7.2.1}
-\contentsline {subsubsection}{\numberline {3.7.2.2}hazard\discretionary {-}{}{}Count}{11}{subsubsection.3.7.2.2}
-\contentsline {subsubsection}{\numberline {3.7.2.3}Object1}{11}{subsubsection.3.7.2.3}
-\contentsline {subsubsection}{\numberline {3.7.2.4}Object2}{11}{subsubsection.3.7.2.4}
-\contentsline {subsubsection}{\numberline {3.7.2.5}Object3}{12}{subsubsection.3.7.2.5}
-\contentsline {subsubsection}{\numberline {3.7.2.6}spawn\discretionary {-}{}{}Values}{12}{subsubsection.3.7.2.6}
-\contentsline {subsubsection}{\numberline {3.7.2.7}spawn\discretionary {-}{}{}Wait}{12}{subsubsection.3.7.2.7}
-\contentsline {subsubsection}{\numberline {3.7.2.8}start\discretionary {-}{}{}Wait}{12}{subsubsection.3.7.2.8}
-\contentsline {subsubsection}{\numberline {3.7.2.9}wave\discretionary {-}{}{}Wait}{12}{subsubsection.3.7.2.9}
-\contentsline {section}{\numberline {3.8}Game\discretionary {-}{}{}Manager Class Reference}{12}{section.3.8}
+\contentsline {section}{\numberline {3.3}Change\discretionary {-}{}{}Scene Class Reference}{7}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Member Function Documentation}{8}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Change\discretionary {-}{}{}To\discretionary {-}{}{}Scene}{8}{subsubsection.3.3.1.1}
+\contentsline {section}{\numberline {3.4}Coin\discretionary {-}{}{}Script Class Reference}{8}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Member Function Documentation}{8}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}{8}{subsubsection.3.4.1.1}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Start}{9}{subsubsection.3.4.1.2}
+\contentsline {subsubsection}{\numberline {3.4.1.3}Update}{9}{subsubsection.3.4.1.3}
+\contentsline {subsection}{\numberline {3.4.2}Member Data Documentation}{9}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}coin\discretionary {-}{}{}S\discretionary {-}{}{}F\discretionary {-}{}{}X}{9}{subsubsection.3.4.2.1}
+\contentsline {section}{\numberline {3.5}Crate\discretionary {-}{}{}Script Class Reference}{9}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Member Function Documentation}{10}{subsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.1.1}On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}{10}{subsubsection.3.5.1.1}
+\contentsline {subsubsection}{\numberline {3.5.1.2}Start}{10}{subsubsection.3.5.1.2}
+\contentsline {subsubsection}{\numberline {3.5.1.3}Update}{10}{subsubsection.3.5.1.3}
+\contentsline {subsection}{\numberline {3.5.2}Member Data Documentation}{10}{subsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.2.1}Box\discretionary {-}{}{}Score}{10}{subsubsection.3.5.2.1}
+\contentsline {subsubsection}{\numberline {3.5.2.2}Crate\discretionary {-}{}{}Object}{10}{subsubsection.3.5.2.2}
+\contentsline {subsubsection}{\numberline {3.5.2.3}Enemy\discretionary {-}{}{}Speed}{10}{subsubsection.3.5.2.3}
+\contentsline {subsubsection}{\numberline {3.5.2.4}Explosion\discretionary {-}{}{}S\discretionary {-}{}{}F\discretionary {-}{}{}X}{10}{subsubsection.3.5.2.4}
+\contentsline {section}{\numberline {3.6}Current\discretionary {-}{}{}Health Class Reference}{10}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Member Function Documentation}{11}{subsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.1.1}Awake}{11}{subsubsection.3.6.1.1}
+\contentsline {subsubsection}{\numberline {3.6.1.2}Update}{11}{subsubsection.3.6.1.2}
+\contentsline {subsection}{\numberline {3.6.2}Member Data Documentation}{11}{subsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.2.1}c\discretionary {-}{}{}Health}{11}{subsubsection.3.6.2.1}
+\contentsline {section}{\numberline {3.7}Destroy\discretionary {-}{}{}By\discretionary {-}{}{}Time Class Reference}{11}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Member Function Documentation}{12}{subsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.1.1}Start}{12}{subsubsection.3.7.1.1}
+\contentsline {subsection}{\numberline {3.7.2}Member Data Documentation}{12}{subsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.2.1}lifetime}{12}{subsubsection.3.7.2.1}
+\contentsline {section}{\numberline {3.8}Game\discretionary {-}{}{}Camera Class Reference}{12}{section.3.8}
 \contentsline {subsection}{\numberline {3.8.1}Member Function Documentation}{13}{subsection.3.8.1}
-\contentsline {subsubsection}{\numberline {3.8.1.1}Spawn\discretionary {-}{}{}Player}{13}{subsubsection.3.8.1.1}
-\contentsline {subsubsection}{\numberline {3.8.1.2}Start}{13}{subsubsection.3.8.1.2}
+\contentsline {subsubsection}{\numberline {3.8.1.1}Increment\discretionary {-}{}{}Towards}{13}{subsubsection.3.8.1.1}
+\contentsline {subsubsection}{\numberline {3.8.1.2}Set\discretionary {-}{}{}Target}{13}{subsubsection.3.8.1.2}
+\contentsline {subsubsection}{\numberline {3.8.1.3}Update}{13}{subsubsection.3.8.1.3}
 \contentsline {subsection}{\numberline {3.8.2}Member Data Documentation}{13}{subsection.3.8.2}
-\contentsline {subsubsection}{\numberline {3.8.2.1}cam}{13}{subsubsection.3.8.2.1}
-\contentsline {subsubsection}{\numberline {3.8.2.2}player}{13}{subsubsection.3.8.2.2}
-\contentsline {section}{\numberline {3.9}Health Class Reference}{13}{section.3.9}
+\contentsline {subsubsection}{\numberline {3.8.2.1}target}{13}{subsubsection.3.8.2.1}
+\contentsline {subsubsection}{\numberline {3.8.2.2}track\discretionary {-}{}{}Speed}{13}{subsubsection.3.8.2.2}
+\contentsline {section}{\numberline {3.9}Game\discretionary {-}{}{}Controller Class Reference}{13}{section.3.9}
 \contentsline {subsection}{\numberline {3.9.1}Member Function Documentation}{14}{subsection.3.9.1}
-\contentsline {subsubsection}{\numberline {3.9.1.1}is\discretionary {-}{}{}Dead}{14}{subsubsection.3.9.1.1}
-\contentsline {subsubsection}{\numberline {3.9.1.2}Receive\discretionary {-}{}{}Dmg}{14}{subsubsection.3.9.1.2}
+\contentsline {subsubsection}{\numberline {3.9.1.1}Start}{14}{subsubsection.3.9.1.1}
+\contentsline {subsubsection}{\numberline {3.9.1.2}Update}{14}{subsubsection.3.9.1.2}
 \contentsline {subsection}{\numberline {3.9.2}Member Data Documentation}{14}{subsection.3.9.2}
-\contentsline {subsubsection}{\numberline {3.9.2.1}current\discretionary {-}{}{}Health}{14}{subsubsection.3.9.2.1}
-\contentsline {section}{\numberline {3.10}Med\discretionary {-}{}{}Pack Class Reference}{14}{section.3.10}
-\contentsline {subsection}{\numberline {3.10.1}Member Function Documentation}{15}{subsection.3.10.1}
-\contentsline {subsubsection}{\numberline {3.10.1.1}On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}{15}{subsubsection.3.10.1.1}
-\contentsline {subsubsection}{\numberline {3.10.1.2}Update}{15}{subsubsection.3.10.1.2}
-\contentsline {subsection}{\numberline {3.10.2}Member Data Documentation}{15}{subsection.3.10.2}
-\contentsline {subsubsection}{\numberline {3.10.2.1}Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T}{15}{subsubsection.3.10.2.1}
-\contentsline {subsubsection}{\numberline {3.10.2.2}Med\discretionary {-}{}{}Speed}{15}{subsubsection.3.10.2.2}
-\contentsline {section}{\numberline {3.11}Object\discretionary {-}{}{}Behavior2 Class Reference}{15}{section.3.11}
-\contentsline {subsection}{\numberline {3.11.1}Member Data Documentation}{15}{subsection.3.11.1}
-\contentsline {subsubsection}{\numberline {3.11.1.1}speed}{15}{subsubsection.3.11.1.1}
-\contentsline {section}{\numberline {3.12}Player\discretionary {-}{}{}Controller Class Reference}{16}{section.3.12}
-\contentsline {subsection}{\numberline {3.12.1}Member Function Documentation}{17}{subsection.3.12.1}
-\contentsline {subsubsection}{\numberline {3.12.1.1}Start}{17}{subsubsection.3.12.1.1}
-\contentsline {subsubsection}{\numberline {3.12.1.2}Update}{17}{subsubsection.3.12.1.2}
-\contentsline {subsection}{\numberline {3.12.2}Member Data Documentation}{17}{subsection.3.12.2}
-\contentsline {subsubsection}{\numberline {3.12.2.1}acceleration}{17}{subsubsection.3.12.2.1}
-\contentsline {subsubsection}{\numberline {3.12.2.2}amount\discretionary {-}{}{}To\discretionary {-}{}{}Move}{17}{subsubsection.3.12.2.2}
-\contentsline {subsubsection}{\numberline {3.12.2.3}current\discretionary {-}{}{}Speed}{17}{subsubsection.3.12.2.3}
-\contentsline {subsubsection}{\numberline {3.12.2.4}Death\discretionary {-}{}{}S\discretionary {-}{}{}D}{17}{subsubsection.3.12.2.4}
-\contentsline {subsubsection}{\numberline {3.12.2.5}gravity}{17}{subsubsection.3.12.2.5}
-\contentsline {subsubsection}{\numberline {3.12.2.6}jump\discretionary {-}{}{}Height}{17}{subsubsection.3.12.2.6}
-\contentsline {subsubsection}{\numberline {3.12.2.7}Jump\discretionary {-}{}{}S\discretionary {-}{}{}D}{17}{subsubsection.3.12.2.7}
-\contentsline {subsubsection}{\numberline {3.12.2.8}Player}{17}{subsubsection.3.12.2.8}
-\contentsline {subsubsection}{\numberline {3.12.2.9}player\discretionary {-}{}{}Physics}{17}{subsubsection.3.12.2.9}
-\contentsline {subsubsection}{\numberline {3.12.2.10}Roll\discretionary {-}{}{}S\discretionary {-}{}{}D}{18}{subsubsection.3.12.2.10}
-\contentsline {subsubsection}{\numberline {3.12.2.11}Shot\discretionary {-}{}{}S\discretionary {-}{}{}D}{18}{subsubsection.3.12.2.11}
-\contentsline {subsubsection}{\numberline {3.12.2.12}speed}{18}{subsubsection.3.12.2.12}
-\contentsline {subsubsection}{\numberline {3.12.2.13}target\discretionary {-}{}{}Speed}{18}{subsubsection.3.12.2.13}
-\contentsline {section}{\numberline {3.13}Player\discretionary {-}{}{}Physics Class Reference}{18}{section.3.13}
+\contentsline {subsubsection}{\numberline {3.9.2.1}hazard}{14}{subsubsection.3.9.2.1}
+\contentsline {subsubsection}{\numberline {3.9.2.2}hazard\discretionary {-}{}{}Count}{15}{subsubsection.3.9.2.2}
+\contentsline {subsubsection}{\numberline {3.9.2.3}Object1}{15}{subsubsection.3.9.2.3}
+\contentsline {subsubsection}{\numberline {3.9.2.4}Object2}{15}{subsubsection.3.9.2.4}
+\contentsline {subsubsection}{\numberline {3.9.2.5}Object3}{15}{subsubsection.3.9.2.5}
+\contentsline {subsubsection}{\numberline {3.9.2.6}Object4}{15}{subsubsection.3.9.2.6}
+\contentsline {subsubsection}{\numberline {3.9.2.7}Object5}{15}{subsubsection.3.9.2.7}
+\contentsline {subsubsection}{\numberline {3.9.2.8}Object6}{15}{subsubsection.3.9.2.8}
+\contentsline {subsubsection}{\numberline {3.9.2.9}spawn\discretionary {-}{}{}Values}{15}{subsubsection.3.9.2.9}
+\contentsline {subsubsection}{\numberline {3.9.2.10}spawn\discretionary {-}{}{}Wait}{15}{subsubsection.3.9.2.10}
+\contentsline {subsubsection}{\numberline {3.9.2.11}start\discretionary {-}{}{}Wait}{15}{subsubsection.3.9.2.11}
+\contentsline {subsubsection}{\numberline {3.9.2.12}wave\discretionary {-}{}{}Wait}{15}{subsubsection.3.9.2.12}
+\contentsline {section}{\numberline {3.10}Game\discretionary {-}{}{}Manager Class Reference}{16}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Member Function Documentation}{16}{subsection.3.10.1}
+\contentsline {subsubsection}{\numberline {3.10.1.1}Spawn\discretionary {-}{}{}Player}{16}{subsubsection.3.10.1.1}
+\contentsline {subsubsection}{\numberline {3.10.1.2}Start}{16}{subsubsection.3.10.1.2}
+\contentsline {subsection}{\numberline {3.10.2}Member Data Documentation}{16}{subsection.3.10.2}
+\contentsline {subsubsection}{\numberline {3.10.2.1}cam}{16}{subsubsection.3.10.2.1}
+\contentsline {subsubsection}{\numberline {3.10.2.2}player}{16}{subsubsection.3.10.2.2}
+\contentsline {section}{\numberline {3.11}Health Class Reference}{17}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Member Function Documentation}{17}{subsection.3.11.1}
+\contentsline {subsubsection}{\numberline {3.11.1.1}is\discretionary {-}{}{}Dead}{17}{subsubsection.3.11.1.1}
+\contentsline {subsubsection}{\numberline {3.11.1.2}Receive\discretionary {-}{}{}Dmg}{17}{subsubsection.3.11.1.2}
+\contentsline {subsection}{\numberline {3.11.2}Member Data Documentation}{17}{subsection.3.11.2}
+\contentsline {subsubsection}{\numberline {3.11.2.1}current\discretionary {-}{}{}Health}{17}{subsubsection.3.11.2.1}
+\contentsline {section}{\numberline {3.12}Med\discretionary {-}{}{}Pack Class Reference}{18}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Member Function Documentation}{18}{subsection.3.12.1}
+\contentsline {subsubsection}{\numberline {3.12.1.1}On\discretionary {-}{}{}Trigger\discretionary {-}{}{}Enter}{18}{subsubsection.3.12.1.1}
+\contentsline {subsubsection}{\numberline {3.12.1.2}Update}{18}{subsubsection.3.12.1.2}
+\contentsline {subsection}{\numberline {3.12.2}Member Data Documentation}{18}{subsection.3.12.2}
+\contentsline {subsubsection}{\numberline {3.12.2.1}Heal\discretionary {-}{}{}A\discretionary {-}{}{}M\discretionary {-}{}{}T}{18}{subsubsection.3.12.2.1}
+\contentsline {subsubsection}{\numberline {3.12.2.2}Med\discretionary {-}{}{}Speed}{18}{subsubsection.3.12.2.2}
+\contentsline {section}{\numberline {3.13}Object\discretionary {-}{}{}Behavior2 Class Reference}{19}{section.3.13}
 \contentsline {subsection}{\numberline {3.13.1}Member Function Documentation}{19}{subsection.3.13.1}
-\contentsline {subsubsection}{\numberline {3.13.1.1}Move}{19}{subsubsection.3.13.1.1}
-\contentsline {subsubsection}{\numberline {3.13.1.2}Start}{20}{subsubsection.3.13.1.2}
-\contentsline {subsection}{\numberline {3.13.2}Member Data Documentation}{20}{subsection.3.13.2}
-\contentsline {subsubsection}{\numberline {3.13.2.1}collision\discretionary {-}{}{}Mask}{20}{subsubsection.3.13.2.1}
-\contentsline {subsubsection}{\numberline {3.13.2.2}grounded}{20}{subsubsection.3.13.2.2}
-\contentsline {subsubsection}{\numberline {3.13.2.3}movement\discretionary {-}{}{}Stopped}{20}{subsubsection.3.13.2.3}
-\contentsline {section}{\numberline {3.14}Spawn\discretionary {-}{}{}Floor Class Reference}{20}{section.3.14}
-\contentsline {subsection}{\numberline {3.14.1}Member Data Documentation}{21}{subsection.3.14.1}
-\contentsline {subsubsection}{\numberline {3.14.1.1}floor}{21}{subsubsection.3.14.1.1}
-\contentsline {subsubsection}{\numberline {3.14.1.2}spawn\discretionary {-}{}{}Values}{21}{subsubsection.3.14.1.2}
-\contentsline {subsubsection}{\numberline {3.14.1.3}spawn\discretionary {-}{}{}Wait}{21}{subsubsection.3.14.1.3}
-\contentsline {subsubsection}{\numberline {3.14.1.4}start\discretionary {-}{}{}Wait}{21}{subsubsection.3.14.1.4}
-\contentsline {section}{\numberline {3.15}Spike\discretionary {-}{}{}Obstacle Class Reference}{21}{section.3.15}
-\contentsline {section}{\numberline {3.16}Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health Class Reference}{21}{section.3.16}
-\contentsline {subsection}{\numberline {3.16.1}Member Function Documentation}{22}{subsection.3.16.1}
-\contentsline {subsubsection}{\numberline {3.16.1.1}Update}{22}{subsubsection.3.16.1.1}
-\contentsline {subsection}{\numberline {3.16.2}Member Data Documentation}{22}{subsection.3.16.2}
-\contentsline {subsubsection}{\numberline {3.16.2.1}New\discretionary {-}{}{}Health}{22}{subsubsection.3.16.2.1}
-\contentsline {subsubsection}{\numberline {3.16.2.2}Previous\discretionary {-}{}{}Health}{22}{subsubsection.3.16.2.2}
-\contentsline {chapter}{Index}{23}{section*.28}
+\contentsline {subsubsection}{\numberline {3.13.1.1}Update}{19}{subsubsection.3.13.1.1}
+\contentsline {subsection}{\numberline {3.13.2}Member Data Documentation}{19}{subsection.3.13.2}
+\contentsline {subsubsection}{\numberline {3.13.2.1}speed}{19}{subsubsection.3.13.2.1}
+\contentsline {section}{\numberline {3.14}Player\discretionary {-}{}{}Controller Class Reference}{19}{section.3.14}
+\contentsline {subsection}{\numberline {3.14.1}Member Function Documentation}{20}{subsection.3.14.1}
+\contentsline {subsubsection}{\numberline {3.14.1.1}Restart\discretionary {-}{}{}Level}{20}{subsubsection.3.14.1.1}
+\contentsline {subsubsection}{\numberline {3.14.1.2}Start}{21}{subsubsection.3.14.1.2}
+\contentsline {subsubsection}{\numberline {3.14.1.3}Update}{21}{subsubsection.3.14.1.3}
+\contentsline {subsection}{\numberline {3.14.2}Member Data Documentation}{21}{subsection.3.14.2}
+\contentsline {subsubsection}{\numberline {3.14.2.1}acceleration}{21}{subsubsection.3.14.2.1}
+\contentsline {subsubsection}{\numberline {3.14.2.2}amount\discretionary {-}{}{}To\discretionary {-}{}{}Move}{21}{subsubsection.3.14.2.2}
+\contentsline {subsubsection}{\numberline {3.14.2.3}c\discretionary {-}{}{}Health}{21}{subsubsection.3.14.2.3}
+\contentsline {subsubsection}{\numberline {3.14.2.4}current\discretionary {-}{}{}Speed}{21}{subsubsection.3.14.2.4}
+\contentsline {subsubsection}{\numberline {3.14.2.5}Death\discretionary {-}{}{}S\discretionary {-}{}{}D}{21}{subsubsection.3.14.2.5}
+\contentsline {subsubsection}{\numberline {3.14.2.6}gravity}{21}{subsubsection.3.14.2.6}
+\contentsline {subsubsection}{\numberline {3.14.2.7}jump\discretionary {-}{}{}Height}{21}{subsubsection.3.14.2.7}
+\contentsline {subsubsection}{\numberline {3.14.2.8}Jump\discretionary {-}{}{}S\discretionary {-}{}{}D}{21}{subsubsection.3.14.2.8}
+\contentsline {subsubsection}{\numberline {3.14.2.9}Player}{21}{subsubsection.3.14.2.9}
+\contentsline {subsubsection}{\numberline {3.14.2.10}player\discretionary {-}{}{}Physics}{21}{subsubsection.3.14.2.10}
+\contentsline {subsubsection}{\numberline {3.14.2.11}Roll\discretionary {-}{}{}S\discretionary {-}{}{}D}{22}{subsubsection.3.14.2.11}
+\contentsline {subsubsection}{\numberline {3.14.2.12}Shot}{22}{subsubsection.3.14.2.12}
+\contentsline {subsubsection}{\numberline {3.14.2.13}Shot\discretionary {-}{}{}S\discretionary {-}{}{}D}{22}{subsubsection.3.14.2.13}
+\contentsline {subsubsection}{\numberline {3.14.2.14}speed}{22}{subsubsection.3.14.2.14}
+\contentsline {subsubsection}{\numberline {3.14.2.15}target\discretionary {-}{}{}Speed}{22}{subsubsection.3.14.2.15}
+\contentsline {section}{\numberline {3.15}Player\discretionary {-}{}{}Physics Class Reference}{22}{section.3.15}
+\contentsline {subsection}{\numberline {3.15.1}Member Function Documentation}{23}{subsection.3.15.1}
+\contentsline {subsubsection}{\numberline {3.15.1.1}Move}{23}{subsubsection.3.15.1.1}
+\contentsline {subsubsection}{\numberline {3.15.1.2}Start}{23}{subsubsection.3.15.1.2}
+\contentsline {subsection}{\numberline {3.15.2}Member Data Documentation}{23}{subsection.3.15.2}
+\contentsline {subsubsection}{\numberline {3.15.2.1}collision\discretionary {-}{}{}Mask}{23}{subsubsection.3.15.2.1}
+\contentsline {subsubsection}{\numberline {3.15.2.2}grounded}{23}{subsubsection.3.15.2.2}
+\contentsline {subsubsection}{\numberline {3.15.2.3}movement\discretionary {-}{}{}Stopped}{23}{subsubsection.3.15.2.3}
+\contentsline {section}{\numberline {3.16}Quit\discretionary {-}{}{}Game Class Reference}{23}{section.3.16}
+\contentsline {subsection}{\numberline {3.16.1}Member Function Documentation}{23}{subsection.3.16.1}
+\contentsline {subsubsection}{\numberline {3.16.1.1}Exit\discretionary {-}{}{}Game\discretionary {-}{}{}On\discretionary {-}{}{}Click}{24}{subsubsection.3.16.1.1}
+\contentsline {section}{\numberline {3.17}Score\discretionary {-}{}{}Manager Class Reference}{24}{section.3.17}
+\contentsline {subsection}{\numberline {3.17.1}Member Function Documentation}{24}{subsection.3.17.1}
+\contentsline {subsubsection}{\numberline {3.17.1.1}Awake}{24}{subsubsection.3.17.1.1}
+\contentsline {subsubsection}{\numberline {3.17.1.2}Update}{24}{subsubsection.3.17.1.2}
+\contentsline {subsection}{\numberline {3.17.2}Member Data Documentation}{24}{subsection.3.17.2}
+\contentsline {subsubsection}{\numberline {3.17.2.1}score}{24}{subsubsection.3.17.2.1}
+\contentsline {subsubsection}{\numberline {3.17.2.2}text}{25}{subsubsection.3.17.2.2}
+\contentsline {section}{\numberline {3.18}Spawn\discretionary {-}{}{}Floor Class Reference}{25}{section.3.18}
+\contentsline {subsection}{\numberline {3.18.1}Member Function Documentation}{25}{subsection.3.18.1}
+\contentsline {subsubsection}{\numberline {3.18.1.1}Start}{25}{subsubsection.3.18.1.1}
+\contentsline {subsection}{\numberline {3.18.2}Member Data Documentation}{25}{subsection.3.18.2}
+\contentsline {subsubsection}{\numberline {3.18.2.1}floor}{25}{subsubsection.3.18.2.1}
+\contentsline {subsubsection}{\numberline {3.18.2.2}spawn\discretionary {-}{}{}Values}{25}{subsubsection.3.18.2.2}
+\contentsline {subsubsection}{\numberline {3.18.2.3}spawn\discretionary {-}{}{}Wait}{26}{subsubsection.3.18.2.3}
+\contentsline {subsubsection}{\numberline {3.18.2.4}start\discretionary {-}{}{}Wait}{26}{subsubsection.3.18.2.4}
+\contentsline {section}{\numberline {3.19}Test\discretionary {-}{}{}Colliderand\discretionary {-}{}{}Health Class Reference}{26}{section.3.19}
+\contentsline {subsection}{\numberline {3.19.1}Member Function Documentation}{26}{subsection.3.19.1}
+\contentsline {subsubsection}{\numberline {3.19.1.1}Update}{26}{subsubsection.3.19.1.1}
+\contentsline {subsection}{\numberline {3.19.2}Member Data Documentation}{26}{subsection.3.19.2}
+\contentsline {subsubsection}{\numberline {3.19.2.1}New\discretionary {-}{}{}Health}{26}{subsubsection.3.19.2.1}
+\contentsline {subsubsection}{\numberline {3.19.2.2}Previous\discretionary {-}{}{}Health}{26}{subsubsection.3.19.2.2}
+\contentsline {chapter}{Index}{28}{section*.39}
